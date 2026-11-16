@@ -1,0 +1,3629 @@
+[
+  {
+    "name": "pretrain_zh",
+    "dataset": "opencsg/Fineweb-Edu-Chinese-V2.1",
+    "source_revision": "a5b574efa48beb3a8f6887ef0b093becf004328b",
+    "selection": "4_5 分数目录，随机种子20261019抽取600分片",
+    "card_license": "apache-2.0",
+    "files": [
+      {
+        "filename": "pretrain_zh_008871.parquet",
+        "size_bytes": 5614973,
+        "source_path": "4_5/008871.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008871.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004782.parquet",
+        "size_bytes": 5884562,
+        "source_path": "4_5/004782.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004782.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008415.parquet",
+        "size_bytes": 5749236,
+        "source_path": "4_5/008415.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008415.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001928.parquet",
+        "size_bytes": 392996,
+        "source_path": "4_5/001928.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001928.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009684.parquet",
+        "size_bytes": 13532427,
+        "source_path": "4_5/009684.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009684.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009289.parquet",
+        "size_bytes": 5742580,
+        "source_path": "4_5/009289.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009289.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004387.parquet",
+        "size_bytes": 6747556,
+        "source_path": "4_5/004387.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004387.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006786.parquet",
+        "size_bytes": 5781145,
+        "source_path": "4_5/006786.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006786.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000812.parquet",
+        "size_bytes": 9259068,
+        "source_path": "4_5/000812.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000812.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003010.parquet",
+        "size_bytes": 2754420,
+        "source_path": "4_5/003010.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003010.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006361.parquet",
+        "size_bytes": 5491938,
+        "source_path": "4_5/006361.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006361.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006401.parquet",
+        "size_bytes": 5657634,
+        "source_path": "4_5/006401.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006401.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003317.parquet",
+        "size_bytes": 3663831,
+        "source_path": "4_5/003317.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003317.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008496.parquet",
+        "size_bytes": 5839349,
+        "source_path": "4_5/008496.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008496.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000859.parquet",
+        "size_bytes": 8605856,
+        "source_path": "4_5/000859.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000859.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002280.parquet",
+        "size_bytes": 1214233,
+        "source_path": "4_5/002280.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002280.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003430.parquet",
+        "size_bytes": 13027631,
+        "source_path": "4_5/003430.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003430.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009741.parquet",
+        "size_bytes": 8246183,
+        "source_path": "4_5/009741.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009741.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006670.parquet",
+        "size_bytes": 5863265,
+        "source_path": "4_5/006670.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006670.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003188.parquet",
+        "size_bytes": 3176732,
+        "source_path": "4_5/003188.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003188.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004074.parquet",
+        "size_bytes": 9864368,
+        "source_path": "4_5/004074.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004074.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004006.parquet",
+        "size_bytes": 6205686,
+        "source_path": "4_5/004006.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004006.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004284.parquet",
+        "size_bytes": 6351871,
+        "source_path": "4_5/004284.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004284.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009597.parquet",
+        "size_bytes": 5587478,
+        "source_path": "4_5/009597.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009597.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005224.parquet",
+        "size_bytes": 6028775,
+        "source_path": "4_5/005224.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005224.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009226.parquet",
+        "size_bytes": 5782042,
+        "source_path": "4_5/009226.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009226.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009755.parquet",
+        "size_bytes": 19552109,
+        "source_path": "4_5/009755.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009755.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005967.parquet",
+        "size_bytes": 5614787,
+        "source_path": "4_5/005967.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005967.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001281.parquet",
+        "size_bytes": 52745282,
+        "source_path": "4_5/001281.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001281.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007257.parquet",
+        "size_bytes": 5613237,
+        "source_path": "4_5/007257.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007257.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004490.parquet",
+        "size_bytes": 6695806,
+        "source_path": "4_5/004490.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004490.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005285.parquet",
+        "size_bytes": 9700084,
+        "source_path": "4_5/005285.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005285.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000842.parquet",
+        "size_bytes": 9060336,
+        "source_path": "4_5/000842.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000842.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000286.parquet",
+        "size_bytes": 8749337,
+        "source_path": "4_5/000286.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000286.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001188.parquet",
+        "size_bytes": 2827280,
+        "source_path": "4_5/001188.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001188.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005088.parquet",
+        "size_bytes": 6225176,
+        "source_path": "4_5/005088.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005088.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005839.parquet",
+        "size_bytes": 5584367,
+        "source_path": "4_5/005839.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005839.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002260.parquet",
+        "size_bytes": 1037328,
+        "source_path": "4_5/002260.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002260.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008226.parquet",
+        "size_bytes": 5733721,
+        "source_path": "4_5/008226.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008226.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003116.parquet",
+        "size_bytes": 2799441,
+        "source_path": "4_5/003116.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003116.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006631.parquet",
+        "size_bytes": 5810030,
+        "source_path": "4_5/006631.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006631.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008647.parquet",
+        "size_bytes": 5974301,
+        "source_path": "4_5/008647.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008647.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004800.parquet",
+        "size_bytes": 6612867,
+        "source_path": "4_5/004800.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004800.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002252.parquet",
+        "size_bytes": 891305,
+        "source_path": "4_5/002252.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002252.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006083.parquet",
+        "size_bytes": 5552823,
+        "source_path": "4_5/006083.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006083.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007026.parquet",
+        "size_bytes": 5775493,
+        "source_path": "4_5/007026.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007026.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005077.parquet",
+        "size_bytes": 5694053,
+        "source_path": "4_5/005077.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005077.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000600.parquet",
+        "size_bytes": 9047810,
+        "source_path": "4_5/000600.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000600.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000751.parquet",
+        "size_bytes": 9043558,
+        "source_path": "4_5/000751.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000751.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002527.parquet",
+        "size_bytes": 524908,
+        "source_path": "4_5/002527.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002527.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006093.parquet",
+        "size_bytes": 5725570,
+        "source_path": "4_5/006093.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006093.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008549.parquet",
+        "size_bytes": 5720438,
+        "source_path": "4_5/008549.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008549.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006509.parquet",
+        "size_bytes": 5839610,
+        "source_path": "4_5/006509.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006509.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006286.parquet",
+        "size_bytes": 5692453,
+        "source_path": "4_5/006286.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006286.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005169.parquet",
+        "size_bytes": 5571653,
+        "source_path": "4_5/005169.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005169.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006341.parquet",
+        "size_bytes": 5968527,
+        "source_path": "4_5/006341.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006341.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000810.parquet",
+        "size_bytes": 8560928,
+        "source_path": "4_5/000810.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000810.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004611.parquet",
+        "size_bytes": 6187108,
+        "source_path": "4_5/004611.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004611.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008514.parquet",
+        "size_bytes": 5785683,
+        "source_path": "4_5/008514.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008514.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007701.parquet",
+        "size_bytes": 5681339,
+        "source_path": "4_5/007701.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007701.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006290.parquet",
+        "size_bytes": 5710798,
+        "source_path": "4_5/006290.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006290.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003336.parquet",
+        "size_bytes": 12874881,
+        "source_path": "4_5/003336.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003336.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002700.parquet",
+        "size_bytes": 2790099,
+        "source_path": "4_5/002700.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002700.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009325.parquet",
+        "size_bytes": 5981260,
+        "source_path": "4_5/009325.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009325.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007517.parquet",
+        "size_bytes": 5661487,
+        "source_path": "4_5/007517.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007517.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008685.parquet",
+        "size_bytes": 5639312,
+        "source_path": "4_5/008685.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008685.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003210.parquet",
+        "size_bytes": 3311733,
+        "source_path": "4_5/003210.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003210.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001847.parquet",
+        "size_bytes": 478289,
+        "source_path": "4_5/001847.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001847.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005497.parquet",
+        "size_bytes": 8126684,
+        "source_path": "4_5/005497.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005497.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002496.parquet",
+        "size_bytes": 12147040,
+        "source_path": "4_5/002496.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002496.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004337.parquet",
+        "size_bytes": 6159177,
+        "source_path": "4_5/004337.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004337.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009339.parquet",
+        "size_bytes": 5475356,
+        "source_path": "4_5/009339.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009339.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002153.parquet",
+        "size_bytes": 1280405,
+        "source_path": "4_5/002153.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002153.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002531.parquet",
+        "size_bytes": 625576,
+        "source_path": "4_5/002531.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002531.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003934.parquet",
+        "size_bytes": 14389047,
+        "source_path": "4_5/003934.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003934.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005018.parquet",
+        "size_bytes": 6224444,
+        "source_path": "4_5/005018.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005018.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009084.parquet",
+        "size_bytes": 5778459,
+        "source_path": "4_5/009084.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009084.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007172.parquet",
+        "size_bytes": 5684400,
+        "source_path": "4_5/007172.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007172.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009462.parquet",
+        "size_bytes": 5571839,
+        "source_path": "4_5/009462.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009462.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007919.parquet",
+        "size_bytes": 5794454,
+        "source_path": "4_5/007919.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007919.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001132.parquet",
+        "size_bytes": 1029362,
+        "source_path": "4_5/001132.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001132.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001168.parquet",
+        "size_bytes": 3371850,
+        "source_path": "4_5/001168.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001168.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004756.parquet",
+        "size_bytes": 5016543,
+        "source_path": "4_5/004756.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004756.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004891.parquet",
+        "size_bytes": 6402867,
+        "source_path": "4_5/004891.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004891.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008550.parquet",
+        "size_bytes": 5625402,
+        "source_path": "4_5/008550.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008550.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008303.parquet",
+        "size_bytes": 5836129,
+        "source_path": "4_5/008303.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008303.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008362.parquet",
+        "size_bytes": 5895314,
+        "source_path": "4_5/008362.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008362.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006835.parquet",
+        "size_bytes": 5742935,
+        "source_path": "4_5/006835.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006835.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000452.parquet",
+        "size_bytes": 9164827,
+        "source_path": "4_5/000452.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000452.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002621.parquet",
+        "size_bytes": 2955161,
+        "source_path": "4_5/002621.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002621.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000816.parquet",
+        "size_bytes": 8885172,
+        "source_path": "4_5/000816.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000816.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001941.parquet",
+        "size_bytes": 380478,
+        "source_path": "4_5/001941.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001941.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008540.parquet",
+        "size_bytes": 5650503,
+        "source_path": "4_5/008540.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008540.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007835.parquet",
+        "size_bytes": 5579420,
+        "source_path": "4_5/007835.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007835.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009551.parquet",
+        "size_bytes": 5838626,
+        "source_path": "4_5/009551.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009551.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003102.parquet",
+        "size_bytes": 2703071,
+        "source_path": "4_5/003102.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003102.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009433.parquet",
+        "size_bytes": 5855400,
+        "source_path": "4_5/009433.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009433.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002044.parquet",
+        "size_bytes": 962520,
+        "source_path": "4_5/002044.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002044.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005951.parquet",
+        "size_bytes": 5706171,
+        "source_path": "4_5/005951.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005951.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005972.parquet",
+        "size_bytes": 5751720,
+        "source_path": "4_5/005972.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005972.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008880.parquet",
+        "size_bytes": 5629490,
+        "source_path": "4_5/008880.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008880.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005366.parquet",
+        "size_bytes": 6345205,
+        "source_path": "4_5/005366.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005366.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006015.parquet",
+        "size_bytes": 5940311,
+        "source_path": "4_5/006015.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006015.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005980.parquet",
+        "size_bytes": 5931089,
+        "source_path": "4_5/005980.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005980.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004711.parquet",
+        "size_bytes": 5456343,
+        "source_path": "4_5/004711.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004711.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000954.parquet",
+        "size_bytes": 9545894,
+        "source_path": "4_5/000954.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000954.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004926.parquet",
+        "size_bytes": 6225197,
+        "source_path": "4_5/004926.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004926.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000576.parquet",
+        "size_bytes": 9266648,
+        "source_path": "4_5/000576.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000576.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000149.parquet",
+        "size_bytes": 8683559,
+        "source_path": "4_5/000149.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000149.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008345.parquet",
+        "size_bytes": 5869189,
+        "source_path": "4_5/008345.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008345.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002795.parquet",
+        "size_bytes": 2909502,
+        "source_path": "4_5/002795.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002795.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002282.parquet",
+        "size_bytes": 469803,
+        "source_path": "4_5/002282.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002282.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003291.parquet",
+        "size_bytes": 3353022,
+        "source_path": "4_5/003291.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003291.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004402.parquet",
+        "size_bytes": 6324019,
+        "source_path": "4_5/004402.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004402.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008159.parquet",
+        "size_bytes": 5756281,
+        "source_path": "4_5/008159.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008159.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006640.parquet",
+        "size_bytes": 5736579,
+        "source_path": "4_5/006640.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006640.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001851.parquet",
+        "size_bytes": 242776,
+        "source_path": "4_5/001851.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001851.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001171.parquet",
+        "size_bytes": 2890761,
+        "source_path": "4_5/001171.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001171.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004748.parquet",
+        "size_bytes": 5684515,
+        "source_path": "4_5/004748.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004748.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009621.parquet",
+        "size_bytes": 5564153,
+        "source_path": "4_5/009621.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009621.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002077.parquet",
+        "size_bytes": 117676,
+        "source_path": "4_5/002077.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002077.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001909.parquet",
+        "size_bytes": 36459790,
+        "source_path": "4_5/001909.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001909.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003596.parquet",
+        "size_bytes": 3894063,
+        "source_path": "4_5/003596.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003596.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005477.parquet",
+        "size_bytes": 5339413,
+        "source_path": "4_5/005477.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005477.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003521.parquet",
+        "size_bytes": 14851976,
+        "source_path": "4_5/003521.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003521.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002856.parquet",
+        "size_bytes": 2836893,
+        "source_path": "4_5/002856.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002856.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003272.parquet",
+        "size_bytes": 13099241,
+        "source_path": "4_5/003272.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003272.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001704.parquet",
+        "size_bytes": 8725381,
+        "source_path": "4_5/001704.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001704.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008846.parquet",
+        "size_bytes": 5440522,
+        "source_path": "4_5/008846.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008846.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009577.parquet",
+        "size_bytes": 5861667,
+        "source_path": "4_5/009577.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009577.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003078.parquet",
+        "size_bytes": 2840284,
+        "source_path": "4_5/003078.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003078.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005520.parquet",
+        "size_bytes": 5975104,
+        "source_path": "4_5/005520.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005520.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005091.parquet",
+        "size_bytes": 6446120,
+        "source_path": "4_5/005091.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005091.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005993.parquet",
+        "size_bytes": 5819190,
+        "source_path": "4_5/005993.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005993.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008036.parquet",
+        "size_bytes": 5449601,
+        "source_path": "4_5/008036.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008036.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005445.parquet",
+        "size_bytes": 7703200,
+        "source_path": "4_5/005445.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005445.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006314.parquet",
+        "size_bytes": 5550893,
+        "source_path": "4_5/006314.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006314.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000930.parquet",
+        "size_bytes": 9070601,
+        "source_path": "4_5/000930.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000930.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007959.parquet",
+        "size_bytes": 5713037,
+        "source_path": "4_5/007959.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007959.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007923.parquet",
+        "size_bytes": 5789444,
+        "source_path": "4_5/007923.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007923.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007156.parquet",
+        "size_bytes": 5912241,
+        "source_path": "4_5/007156.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007156.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001111.parquet",
+        "size_bytes": 823434,
+        "source_path": "4_5/001111.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001111.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001980.parquet",
+        "size_bytes": 299823,
+        "source_path": "4_5/001980.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001980.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000892.parquet",
+        "size_bytes": 9113689,
+        "source_path": "4_5/000892.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000892.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004210.parquet",
+        "size_bytes": 6455498,
+        "source_path": "4_5/004210.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004210.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007985.parquet",
+        "size_bytes": 5726330,
+        "source_path": "4_5/007985.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007985.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000168.parquet",
+        "size_bytes": 9245270,
+        "source_path": "4_5/000168.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000168.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005457.parquet",
+        "size_bytes": 5419060,
+        "source_path": "4_5/005457.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005457.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007640.parquet",
+        "size_bytes": 5957838,
+        "source_path": "4_5/007640.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007640.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002589.parquet",
+        "size_bytes": 2722718,
+        "source_path": "4_5/002589.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002589.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005207.parquet",
+        "size_bytes": 5941878,
+        "source_path": "4_5/005207.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005207.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008309.parquet",
+        "size_bytes": 5943811,
+        "source_path": "4_5/008309.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008309.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009600.parquet",
+        "size_bytes": 5826186,
+        "source_path": "4_5/009600.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009600.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006110.parquet",
+        "size_bytes": 5661703,
+        "source_path": "4_5/006110.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006110.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000028.parquet",
+        "size_bytes": 9258017,
+        "source_path": "4_5/000028.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000028.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003933.parquet",
+        "size_bytes": 14216064,
+        "source_path": "4_5/003933.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003933.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006708.parquet",
+        "size_bytes": 5703229,
+        "source_path": "4_5/006708.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006708.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002957.parquet",
+        "size_bytes": 2814325,
+        "source_path": "4_5/002957.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002957.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008501.parquet",
+        "size_bytes": 5870134,
+        "source_path": "4_5/008501.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008501.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003353.parquet",
+        "size_bytes": 13835827,
+        "source_path": "4_5/003353.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003353.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005517.parquet",
+        "size_bytes": 5203163,
+        "source_path": "4_5/005517.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005517.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004700.parquet",
+        "size_bytes": 5885450,
+        "source_path": "4_5/004700.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004700.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006148.parquet",
+        "size_bytes": 5643782,
+        "source_path": "4_5/006148.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006148.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008402.parquet",
+        "size_bytes": 5909430,
+        "source_path": "4_5/008402.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008402.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000844.parquet",
+        "size_bytes": 9220033,
+        "source_path": "4_5/000844.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000844.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006320.parquet",
+        "size_bytes": 5692438,
+        "source_path": "4_5/006320.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006320.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008032.parquet",
+        "size_bytes": 5551148,
+        "source_path": "4_5/008032.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008032.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007889.parquet",
+        "size_bytes": 5746684,
+        "source_path": "4_5/007889.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007889.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008184.parquet",
+        "size_bytes": 5724889,
+        "source_path": "4_5/008184.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008184.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003841.parquet",
+        "size_bytes": 3452634,
+        "source_path": "4_5/003841.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003841.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003130.parquet",
+        "size_bytes": 2838575,
+        "source_path": "4_5/003130.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003130.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006714.parquet",
+        "size_bytes": 5713194,
+        "source_path": "4_5/006714.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006714.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002341.parquet",
+        "size_bytes": 1309251,
+        "source_path": "4_5/002341.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002341.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001741.parquet",
+        "size_bytes": 8576078,
+        "source_path": "4_5/001741.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001741.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007247.parquet",
+        "size_bytes": 5735809,
+        "source_path": "4_5/007247.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007247.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004314.parquet",
+        "size_bytes": 6308513,
+        "source_path": "4_5/004314.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004314.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000820.parquet",
+        "size_bytes": 9284635,
+        "source_path": "4_5/000820.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000820.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006505.parquet",
+        "size_bytes": 5505567,
+        "source_path": "4_5/006505.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006505.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002197.parquet",
+        "size_bytes": 1178309,
+        "source_path": "4_5/002197.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002197.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003450.parquet",
+        "size_bytes": 12471609,
+        "source_path": "4_5/003450.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003450.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000472.parquet",
+        "size_bytes": 9129985,
+        "source_path": "4_5/000472.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000472.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000306.parquet",
+        "size_bytes": 9703107,
+        "source_path": "4_5/000306.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000306.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000386.parquet",
+        "size_bytes": 8967302,
+        "source_path": "4_5/000386.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000386.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001097.parquet",
+        "size_bytes": 801693,
+        "source_path": "4_5/001097.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001097.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002904.parquet",
+        "size_bytes": 2883149,
+        "source_path": "4_5/002904.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002904.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008041.parquet",
+        "size_bytes": 5829518,
+        "source_path": "4_5/008041.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008041.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003474.parquet",
+        "size_bytes": 3580835,
+        "source_path": "4_5/003474.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003474.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008437.parquet",
+        "size_bytes": 5666884,
+        "source_path": "4_5/008437.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008437.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009166.parquet",
+        "size_bytes": 5619392,
+        "source_path": "4_5/009166.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009166.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002532.parquet",
+        "size_bytes": 607056,
+        "source_path": "4_5/002532.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002532.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003400.parquet",
+        "size_bytes": 3544653,
+        "source_path": "4_5/003400.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003400.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006948.parquet",
+        "size_bytes": 5760304,
+        "source_path": "4_5/006948.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006948.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006154.parquet",
+        "size_bytes": 5852436,
+        "source_path": "4_5/006154.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006154.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002248.parquet",
+        "size_bytes": 943701,
+        "source_path": "4_5/002248.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002248.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008113.parquet",
+        "size_bytes": 5658069,
+        "source_path": "4_5/008113.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008113.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000631.parquet",
+        "size_bytes": 9588193,
+        "source_path": "4_5/000631.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000631.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008479.parquet",
+        "size_bytes": 5880772,
+        "source_path": "4_5/008479.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008479.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001322.parquet",
+        "size_bytes": 775113,
+        "source_path": "4_5/001322.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001322.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004725.parquet",
+        "size_bytes": 5239952,
+        "source_path": "4_5/004725.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004725.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007314.parquet",
+        "size_bytes": 5790167,
+        "source_path": "4_5/007314.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007314.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003826.parquet",
+        "size_bytes": 3406387,
+        "source_path": "4_5/003826.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003826.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006583.parquet",
+        "size_bytes": 5839740,
+        "source_path": "4_5/006583.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006583.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006261.parquet",
+        "size_bytes": 5569311,
+        "source_path": "4_5/006261.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006261.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006082.parquet",
+        "size_bytes": 5654800,
+        "source_path": "4_5/006082.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006082.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002397.parquet",
+        "size_bytes": 1238277,
+        "source_path": "4_5/002397.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002397.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007684.parquet",
+        "size_bytes": 5747400,
+        "source_path": "4_5/007684.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007684.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009560.parquet",
+        "size_bytes": 5933285,
+        "source_path": "4_5/009560.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009560.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005644.parquet",
+        "size_bytes": 5822397,
+        "source_path": "4_5/005644.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005644.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001841.parquet",
+        "size_bytes": 386878,
+        "source_path": "4_5/001841.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001841.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009674.parquet",
+        "size_bytes": 10182726,
+        "source_path": "4_5/009674.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009674.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006466.parquet",
+        "size_bytes": 5682744,
+        "source_path": "4_5/006466.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006466.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000197.parquet",
+        "size_bytes": 9115538,
+        "source_path": "4_5/000197.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000197.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008545.parquet",
+        "size_bytes": 5744172,
+        "source_path": "4_5/008545.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008545.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000856.parquet",
+        "size_bytes": 9107327,
+        "source_path": "4_5/000856.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000856.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005172.parquet",
+        "size_bytes": 6590149,
+        "source_path": "4_5/005172.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005172.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003138.parquet",
+        "size_bytes": 2681369,
+        "source_path": "4_5/003138.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003138.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004994.parquet",
+        "size_bytes": 6218415,
+        "source_path": "4_5/004994.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004994.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000905.parquet",
+        "size_bytes": 8944531,
+        "source_path": "4_5/000905.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000905.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004269.parquet",
+        "size_bytes": 6492576,
+        "source_path": "4_5/004269.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004269.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007184.parquet",
+        "size_bytes": 5559459,
+        "source_path": "4_5/007184.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007184.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007449.parquet",
+        "size_bytes": 5570147,
+        "source_path": "4_5/007449.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007449.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000984.parquet",
+        "size_bytes": 9390510,
+        "source_path": "4_5/000984.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000984.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007220.parquet",
+        "size_bytes": 5653028,
+        "source_path": "4_5/007220.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007220.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003951.parquet",
+        "size_bytes": 9777933,
+        "source_path": "4_5/003951.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003951.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006410.parquet",
+        "size_bytes": 5646150,
+        "source_path": "4_5/006410.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006410.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000432.parquet",
+        "size_bytes": 8879676,
+        "source_path": "4_5/000432.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000432.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007170.parquet",
+        "size_bytes": 5968234,
+        "source_path": "4_5/007170.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007170.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009703.parquet",
+        "size_bytes": 12651268,
+        "source_path": "4_5/009703.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009703.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009473.parquet",
+        "size_bytes": 5777277,
+        "source_path": "4_5/009473.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009473.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003913.parquet",
+        "size_bytes": 19226447,
+        "source_path": "4_5/003913.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003913.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009598.parquet",
+        "size_bytes": 5856129,
+        "source_path": "4_5/009598.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009598.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006742.parquet",
+        "size_bytes": 5637172,
+        "source_path": "4_5/006742.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006742.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003141.parquet",
+        "size_bytes": 2886592,
+        "source_path": "4_5/003141.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003141.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004048.parquet",
+        "size_bytes": 4993590,
+        "source_path": "4_5/004048.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004048.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001014.parquet",
+        "size_bytes": 66345,
+        "source_path": "4_5/001014.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001014.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001610.parquet",
+        "size_bytes": 129446847,
+        "source_path": "4_5/001610.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001610.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001642.parquet",
+        "size_bytes": 150006297,
+        "source_path": "4_5/001642.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001642.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002188.parquet",
+        "size_bytes": 870905,
+        "source_path": "4_5/002188.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002188.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000089.parquet",
+        "size_bytes": 9233146,
+        "source_path": "4_5/000089.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000089.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008220.parquet",
+        "size_bytes": 5951329,
+        "source_path": "4_5/008220.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008220.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008763.parquet",
+        "size_bytes": 5441612,
+        "source_path": "4_5/008763.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008763.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006327.parquet",
+        "size_bytes": 5648686,
+        "source_path": "4_5/006327.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006327.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005045.parquet",
+        "size_bytes": 6226229,
+        "source_path": "4_5/005045.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005045.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007520.parquet",
+        "size_bytes": 5870936,
+        "source_path": "4_5/007520.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007520.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000888.parquet",
+        "size_bytes": 9121873,
+        "source_path": "4_5/000888.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000888.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000284.parquet",
+        "size_bytes": 9172087,
+        "source_path": "4_5/000284.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000284.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009751.parquet",
+        "size_bytes": 13653726,
+        "source_path": "4_5/009751.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009751.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007000.parquet",
+        "size_bytes": 5595440,
+        "source_path": "4_5/007000.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007000.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001339.parquet",
+        "size_bytes": 725013,
+        "source_path": "4_5/001339.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001339.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002687.parquet",
+        "size_bytes": 2781531,
+        "source_path": "4_5/002687.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002687.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002167.parquet",
+        "size_bytes": 1049026,
+        "source_path": "4_5/002167.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002167.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001147.parquet",
+        "size_bytes": 112828610,
+        "source_path": "4_5/001147.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001147.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000206.parquet",
+        "size_bytes": 9094678,
+        "source_path": "4_5/000206.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000206.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004012.parquet",
+        "size_bytes": 4656982,
+        "source_path": "4_5/004012.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004012.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003698.parquet",
+        "size_bytes": 3407861,
+        "source_path": "4_5/003698.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003698.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004590.parquet",
+        "size_bytes": 5813008,
+        "source_path": "4_5/004590.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004590.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001720.parquet",
+        "size_bytes": 8998080,
+        "source_path": "4_5/001720.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001720.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006421.parquet",
+        "size_bytes": 5587814,
+        "source_path": "4_5/006421.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006421.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002703.parquet",
+        "size_bytes": 2838693,
+        "source_path": "4_5/002703.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002703.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004654.parquet",
+        "size_bytes": 6390811,
+        "source_path": "4_5/004654.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004654.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009021.parquet",
+        "size_bytes": 5975737,
+        "source_path": "4_5/009021.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009021.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008058.parquet",
+        "size_bytes": 5722402,
+        "source_path": "4_5/008058.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008058.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002277.parquet",
+        "size_bytes": 1177630,
+        "source_path": "4_5/002277.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002277.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007577.parquet",
+        "size_bytes": 5465744,
+        "source_path": "4_5/007577.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007577.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003024.parquet",
+        "size_bytes": 2798647,
+        "source_path": "4_5/003024.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003024.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000194.parquet",
+        "size_bytes": 8715786,
+        "source_path": "4_5/000194.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000194.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009078.parquet",
+        "size_bytes": 5525642,
+        "source_path": "4_5/009078.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009078.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000985.parquet",
+        "size_bytes": 9126518,
+        "source_path": "4_5/000985.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000985.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001404.parquet",
+        "size_bytes": 2252109,
+        "source_path": "4_5/001404.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001404.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000838.parquet",
+        "size_bytes": 9193543,
+        "source_path": "4_5/000838.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000838.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009330.parquet",
+        "size_bytes": 5847940,
+        "source_path": "4_5/009330.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009330.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009307.parquet",
+        "size_bytes": 5592717,
+        "source_path": "4_5/009307.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009307.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003638.parquet",
+        "size_bytes": 15348350,
+        "source_path": "4_5/003638.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003638.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000503.parquet",
+        "size_bytes": 9703035,
+        "source_path": "4_5/000503.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000503.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008351.parquet",
+        "size_bytes": 5692936,
+        "source_path": "4_5/008351.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008351.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000349.parquet",
+        "size_bytes": 9277001,
+        "source_path": "4_5/000349.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000349.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001782.parquet",
+        "size_bytes": 181847,
+        "source_path": "4_5/001782.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001782.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001329.parquet",
+        "size_bytes": 669724,
+        "source_path": "4_5/001329.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001329.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007060.parquet",
+        "size_bytes": 5860210,
+        "source_path": "4_5/007060.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007060.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006278.parquet",
+        "size_bytes": 5496337,
+        "source_path": "4_5/006278.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006278.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005049.parquet",
+        "size_bytes": 6222480,
+        "source_path": "4_5/005049.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005049.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008178.parquet",
+        "size_bytes": 5481251,
+        "source_path": "4_5/008178.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008178.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004720.parquet",
+        "size_bytes": 5189299,
+        "source_path": "4_5/004720.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004720.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000363.parquet",
+        "size_bytes": 9020032,
+        "source_path": "4_5/000363.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000363.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000837.parquet",
+        "size_bytes": 8994933,
+        "source_path": "4_5/000837.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000837.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007388.parquet",
+        "size_bytes": 6019518,
+        "source_path": "4_5/007388.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007388.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006522.parquet",
+        "size_bytes": 5620541,
+        "source_path": "4_5/006522.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006522.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009427.parquet",
+        "size_bytes": 5669461,
+        "source_path": "4_5/009427.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009427.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008048.parquet",
+        "size_bytes": 5629774,
+        "source_path": "4_5/008048.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008048.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009450.parquet",
+        "size_bytes": 5821220,
+        "source_path": "4_5/009450.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009450.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005722.parquet",
+        "size_bytes": 9290040,
+        "source_path": "4_5/005722.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005722.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005583.parquet",
+        "size_bytes": 6146842,
+        "source_path": "4_5/005583.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005583.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009148.parquet",
+        "size_bytes": 6036076,
+        "source_path": "4_5/009148.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009148.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008155.parquet",
+        "size_bytes": 5766122,
+        "source_path": "4_5/008155.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008155.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001506.parquet",
+        "size_bytes": 376233,
+        "source_path": "4_5/001506.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001506.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007943.parquet",
+        "size_bytes": 5529987,
+        "source_path": "4_5/007943.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007943.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005707.parquet",
+        "size_bytes": 6234803,
+        "source_path": "4_5/005707.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005707.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001870.parquet",
+        "size_bytes": 8261969,
+        "source_path": "4_5/001870.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001870.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008729.parquet",
+        "size_bytes": 5904125,
+        "source_path": "4_5/008729.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008729.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008418.parquet",
+        "size_bytes": 5930187,
+        "source_path": "4_5/008418.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008418.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006897.parquet",
+        "size_bytes": 5784904,
+        "source_path": "4_5/006897.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006897.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003677.parquet",
+        "size_bytes": 3608672,
+        "source_path": "4_5/003677.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003677.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008266.parquet",
+        "size_bytes": 5665417,
+        "source_path": "4_5/008266.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008266.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007495.parquet",
+        "size_bytes": 5465682,
+        "source_path": "4_5/007495.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007495.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004358.parquet",
+        "size_bytes": 6310766,
+        "source_path": "4_5/004358.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004358.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006384.parquet",
+        "size_bytes": 5777259,
+        "source_path": "4_5/006384.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006384.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007134.parquet",
+        "size_bytes": 5729245,
+        "source_path": "4_5/007134.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007134.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003730.parquet",
+        "size_bytes": 14824991,
+        "source_path": "4_5/003730.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003730.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002358.parquet",
+        "size_bytes": 2058458,
+        "source_path": "4_5/002358.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002358.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005730.parquet",
+        "size_bytes": 6534690,
+        "source_path": "4_5/005730.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005730.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003050.parquet",
+        "size_bytes": 2930246,
+        "source_path": "4_5/003050.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003050.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003642.parquet",
+        "size_bytes": 14354782,
+        "source_path": "4_5/003642.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003642.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001257.parquet",
+        "size_bytes": 138137,
+        "source_path": "4_5/001257.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001257.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005221.parquet",
+        "size_bytes": 5956146,
+        "source_path": "4_5/005221.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005221.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002763.parquet",
+        "size_bytes": 3009072,
+        "source_path": "4_5/002763.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002763.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000782.parquet",
+        "size_bytes": 9478677,
+        "source_path": "4_5/000782.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000782.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005960.parquet",
+        "size_bytes": 5750949,
+        "source_path": "4_5/005960.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005960.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000023.parquet",
+        "size_bytes": 9406463,
+        "source_path": "4_5/000023.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000023.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009567.parquet",
+        "size_bytes": 5868612,
+        "source_path": "4_5/009567.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009567.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009678.parquet",
+        "size_bytes": 12495889,
+        "source_path": "4_5/009678.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009678.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007018.parquet",
+        "size_bytes": 5658260,
+        "source_path": "4_5/007018.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007018.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006579.parquet",
+        "size_bytes": 5524456,
+        "source_path": "4_5/006579.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006579.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000569.parquet",
+        "size_bytes": 9030567,
+        "source_path": "4_5/000569.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000569.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002293.parquet",
+        "size_bytes": 1063224,
+        "source_path": "4_5/002293.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002293.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002386.parquet",
+        "size_bytes": 1273335,
+        "source_path": "4_5/002386.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002386.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006013.parquet",
+        "size_bytes": 5850512,
+        "source_path": "4_5/006013.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006013.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007275.parquet",
+        "size_bytes": 5939435,
+        "source_path": "4_5/007275.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007275.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005566.parquet",
+        "size_bytes": 8623822,
+        "source_path": "4_5/005566.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005566.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006756.parquet",
+        "size_bytes": 5571728,
+        "source_path": "4_5/006756.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006756.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000784.parquet",
+        "size_bytes": 9488433,
+        "source_path": "4_5/000784.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000784.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004291.parquet",
+        "size_bytes": 6652379,
+        "source_path": "4_5/004291.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004291.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008727.parquet",
+        "size_bytes": 5706151,
+        "source_path": "4_5/008727.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008727.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002807.parquet",
+        "size_bytes": 2614817,
+        "source_path": "4_5/002807.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002807.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009389.parquet",
+        "size_bytes": 5902052,
+        "source_path": "4_5/009389.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009389.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006770.parquet",
+        "size_bytes": 5793580,
+        "source_path": "4_5/006770.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006770.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009536.parquet",
+        "size_bytes": 5693732,
+        "source_path": "4_5/009536.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009536.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009380.parquet",
+        "size_bytes": 5440909,
+        "source_path": "4_5/009380.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009380.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000612.parquet",
+        "size_bytes": 8909138,
+        "source_path": "4_5/000612.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000612.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008807.parquet",
+        "size_bytes": 5495830,
+        "source_path": "4_5/008807.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008807.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004694.parquet",
+        "size_bytes": 5651234,
+        "source_path": "4_5/004694.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004694.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008953.parquet",
+        "size_bytes": 5943417,
+        "source_path": "4_5/008953.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008953.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001646.parquet",
+        "size_bytes": 150280812,
+        "source_path": "4_5/001646.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001646.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000208.parquet",
+        "size_bytes": 9059071,
+        "source_path": "4_5/000208.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000208.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006253.parquet",
+        "size_bytes": 5932820,
+        "source_path": "4_5/006253.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006253.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003488.parquet",
+        "size_bytes": 3874436,
+        "source_path": "4_5/003488.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003488.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008343.parquet",
+        "size_bytes": 5347396,
+        "source_path": "4_5/008343.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008343.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004634.parquet",
+        "size_bytes": 5477938,
+        "source_path": "4_5/004634.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004634.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000146.parquet",
+        "size_bytes": 8999882,
+        "source_path": "4_5/000146.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000146.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000506.parquet",
+        "size_bytes": 8970969,
+        "source_path": "4_5/000506.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000506.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002620.parquet",
+        "size_bytes": 2677043,
+        "source_path": "4_5/002620.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002620.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007074.parquet",
+        "size_bytes": 5834061,
+        "source_path": "4_5/007074.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007074.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006908.parquet",
+        "size_bytes": 5714546,
+        "source_path": "4_5/006908.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006908.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003136.parquet",
+        "size_bytes": 2694603,
+        "source_path": "4_5/003136.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003136.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000231.parquet",
+        "size_bytes": 9397667,
+        "source_path": "4_5/000231.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000231.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005029.parquet",
+        "size_bytes": 6498252,
+        "source_path": "4_5/005029.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005029.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000218.parquet",
+        "size_bytes": 9135304,
+        "source_path": "4_5/000218.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000218.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008325.parquet",
+        "size_bytes": 5656840,
+        "source_path": "4_5/008325.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008325.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008071.parquet",
+        "size_bytes": 5408309,
+        "source_path": "4_5/008071.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008071.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005343.parquet",
+        "size_bytes": 9820164,
+        "source_path": "4_5/005343.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005343.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005122.parquet",
+        "size_bytes": 5935158,
+        "source_path": "4_5/005122.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005122.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009417.parquet",
+        "size_bytes": 5757199,
+        "source_path": "4_5/009417.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009417.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002975.parquet",
+        "size_bytes": 2942151,
+        "source_path": "4_5/002975.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002975.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005885.parquet",
+        "size_bytes": 5821530,
+        "source_path": "4_5/005885.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005885.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006833.parquet",
+        "size_bytes": 5653624,
+        "source_path": "4_5/006833.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006833.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009388.parquet",
+        "size_bytes": 5451831,
+        "source_path": "4_5/009388.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009388.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004738.parquet",
+        "size_bytes": 5897829,
+        "source_path": "4_5/004738.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004738.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002370.parquet",
+        "size_bytes": 1551287,
+        "source_path": "4_5/002370.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002370.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002733.parquet",
+        "size_bytes": 2952016,
+        "source_path": "4_5/002733.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002733.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008400.parquet",
+        "size_bytes": 5898490,
+        "source_path": "4_5/008400.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008400.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003580.parquet",
+        "size_bytes": 14769358,
+        "source_path": "4_5/003580.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003580.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003068.parquet",
+        "size_bytes": 2890501,
+        "source_path": "4_5/003068.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003068.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005810.parquet",
+        "size_bytes": 6877465,
+        "source_path": "4_5/005810.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005810.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004498.parquet",
+        "size_bytes": 6728294,
+        "source_path": "4_5/004498.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004498.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007560.parquet",
+        "size_bytes": 5549185,
+        "source_path": "4_5/007560.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007560.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006600.parquet",
+        "size_bytes": 5930962,
+        "source_path": "4_5/006600.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006600.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008086.parquet",
+        "size_bytes": 5539146,
+        "source_path": "4_5/008086.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008086.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004939.parquet",
+        "size_bytes": 5546427,
+        "source_path": "4_5/004939.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004939.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008187.parquet",
+        "size_bytes": 5903115,
+        "source_path": "4_5/008187.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008187.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007128.parquet",
+        "size_bytes": 6108027,
+        "source_path": "4_5/007128.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007128.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003713.parquet",
+        "size_bytes": 12291263,
+        "source_path": "4_5/003713.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003713.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004652.parquet",
+        "size_bytes": 6024418,
+        "source_path": "4_5/004652.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004652.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001985.parquet",
+        "size_bytes": 284676,
+        "source_path": "4_5/001985.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001985.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005641.parquet",
+        "size_bytes": 6051844,
+        "source_path": "4_5/005641.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005641.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005834.parquet",
+        "size_bytes": 5641512,
+        "source_path": "4_5/005834.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005834.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008461.parquet",
+        "size_bytes": 5812044,
+        "source_path": "4_5/008461.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008461.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002481.parquet",
+        "size_bytes": 2279301,
+        "source_path": "4_5/002481.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002481.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003854.parquet",
+        "size_bytes": 15708080,
+        "source_path": "4_5/003854.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003854.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005800.parquet",
+        "size_bytes": 7848754,
+        "source_path": "4_5/005800.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005800.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005922.parquet",
+        "size_bytes": 5705092,
+        "source_path": "4_5/005922.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005922.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003943.parquet",
+        "size_bytes": 20936514,
+        "source_path": "4_5/003943.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003943.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007695.parquet",
+        "size_bytes": 5999485,
+        "source_path": "4_5/007695.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007695.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006501.parquet",
+        "size_bytes": 5822136,
+        "source_path": "4_5/006501.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006501.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007475.parquet",
+        "size_bytes": 5330995,
+        "source_path": "4_5/007475.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007475.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007323.parquet",
+        "size_bytes": 5803273,
+        "source_path": "4_5/007323.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007323.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006467.parquet",
+        "size_bytes": 5699338,
+        "source_path": "4_5/006467.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006467.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007862.parquet",
+        "size_bytes": 5610773,
+        "source_path": "4_5/007862.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007862.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003283.parquet",
+        "size_bytes": 7934156,
+        "source_path": "4_5/003283.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003283.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001769.parquet",
+        "size_bytes": 178262,
+        "source_path": "4_5/001769.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001769.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004922.parquet",
+        "size_bytes": 6279435,
+        "source_path": "4_5/004922.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004922.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003332.parquet",
+        "size_bytes": 11529779,
+        "source_path": "4_5/003332.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003332.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002216.parquet",
+        "size_bytes": 672668,
+        "source_path": "4_5/002216.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002216.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001688.parquet",
+        "size_bytes": 7831674,
+        "source_path": "4_5/001688.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001688.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000317.parquet",
+        "size_bytes": 8713746,
+        "source_path": "4_5/000317.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000317.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001546.parquet",
+        "size_bytes": 504500,
+        "source_path": "4_5/001546.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001546.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006934.parquet",
+        "size_bytes": 5768421,
+        "source_path": "4_5/006934.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006934.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009757.parquet",
+        "size_bytes": 15907515,
+        "source_path": "4_5/009757.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009757.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009107.parquet",
+        "size_bytes": 5626476,
+        "source_path": "4_5/009107.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009107.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003109.parquet",
+        "size_bytes": 2803708,
+        "source_path": "4_5/003109.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003109.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002828.parquet",
+        "size_bytes": 2866516,
+        "source_path": "4_5/002828.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002828.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002102.parquet",
+        "size_bytes": 1744674,
+        "source_path": "4_5/002102.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002102.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004416.parquet",
+        "size_bytes": 6524054,
+        "source_path": "4_5/004416.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004416.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000928.parquet",
+        "size_bytes": 9053174,
+        "source_path": "4_5/000928.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000928.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005700.parquet",
+        "size_bytes": 6926374,
+        "source_path": "4_5/005700.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005700.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009724.parquet",
+        "size_bytes": 7065200,
+        "source_path": "4_5/009724.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009724.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005847.parquet",
+        "size_bytes": 5608390,
+        "source_path": "4_5/005847.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005847.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005067.parquet",
+        "size_bytes": 5830592,
+        "source_path": "4_5/005067.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005067.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007063.parquet",
+        "size_bytes": 5492927,
+        "source_path": "4_5/007063.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007063.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003508.parquet",
+        "size_bytes": 14936804,
+        "source_path": "4_5/003508.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003508.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005213.parquet",
+        "size_bytes": 6315756,
+        "source_path": "4_5/005213.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005213.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000106.parquet",
+        "size_bytes": 9135262,
+        "source_path": "4_5/000106.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000106.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008070.parquet",
+        "size_bytes": 5815160,
+        "source_path": "4_5/008070.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008070.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005741.parquet",
+        "size_bytes": 9348043,
+        "source_path": "4_5/005741.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005741.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001011.parquet",
+        "size_bytes": 60857,
+        "source_path": "4_5/001011.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001011.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006026.parquet",
+        "size_bytes": 5649943,
+        "source_path": "4_5/006026.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006026.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003111.parquet",
+        "size_bytes": 2917576,
+        "source_path": "4_5/003111.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003111.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003768.parquet",
+        "size_bytes": 3733044,
+        "source_path": "4_5/003768.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003768.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008773.parquet",
+        "size_bytes": 5770645,
+        "source_path": "4_5/008773.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008773.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003855.parquet",
+        "size_bytes": 14955820,
+        "source_path": "4_5/003855.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003855.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001424.parquet",
+        "size_bytes": 29402342,
+        "source_path": "4_5/001424.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001424.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008044.parquet",
+        "size_bytes": 5619080,
+        "source_path": "4_5/008044.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008044.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006456.parquet",
+        "size_bytes": 5619761,
+        "source_path": "4_5/006456.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006456.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003865.parquet",
+        "size_bytes": 15469361,
+        "source_path": "4_5/003865.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003865.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008768.parquet",
+        "size_bytes": 5523030,
+        "source_path": "4_5/008768.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008768.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005210.parquet",
+        "size_bytes": 6166560,
+        "source_path": "4_5/005210.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005210.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007304.parquet",
+        "size_bytes": 5952560,
+        "source_path": "4_5/007304.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007304.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002265.parquet",
+        "size_bytes": 953546,
+        "source_path": "4_5/002265.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002265.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005155.parquet",
+        "size_bytes": 5778265,
+        "source_path": "4_5/005155.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005155.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009283.parquet",
+        "size_bytes": 5601679,
+        "source_path": "4_5/009283.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009283.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003922.parquet",
+        "size_bytes": 10656175,
+        "source_path": "4_5/003922.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003922.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006608.parquet",
+        "size_bytes": 5673552,
+        "source_path": "4_5/006608.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006608.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008808.parquet",
+        "size_bytes": 5814776,
+        "source_path": "4_5/008808.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008808.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008886.parquet",
+        "size_bytes": 5592464,
+        "source_path": "4_5/008886.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008886.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003935.parquet",
+        "size_bytes": 13286324,
+        "source_path": "4_5/003935.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003935.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000337.parquet",
+        "size_bytes": 8906075,
+        "source_path": "4_5/000337.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000337.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002656.parquet",
+        "size_bytes": 2853379,
+        "source_path": "4_5/002656.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002656.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002426.parquet",
+        "size_bytes": 1171482,
+        "source_path": "4_5/002426.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002426.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008234.parquet",
+        "size_bytes": 5626662,
+        "source_path": "4_5/008234.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008234.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003264.parquet",
+        "size_bytes": 13969489,
+        "source_path": "4_5/003264.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003264.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002830.parquet",
+        "size_bytes": 2793681,
+        "source_path": "4_5/002830.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002830.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007330.parquet",
+        "size_bytes": 5621785,
+        "source_path": "4_5/007330.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007330.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002236.parquet",
+        "size_bytes": 359767,
+        "source_path": "4_5/002236.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002236.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001082.parquet",
+        "size_bytes": 36463659,
+        "source_path": "4_5/001082.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001082.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007279.parquet",
+        "size_bytes": 5748765,
+        "source_path": "4_5/007279.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007279.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009550.parquet",
+        "size_bytes": 5448040,
+        "source_path": "4_5/009550.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009550.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005947.parquet",
+        "size_bytes": 5669652,
+        "source_path": "4_5/005947.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005947.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005456.parquet",
+        "size_bytes": 5517414,
+        "source_path": "4_5/005456.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005456.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007349.parquet",
+        "size_bytes": 5886573,
+        "source_path": "4_5/007349.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007349.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003292.parquet",
+        "size_bytes": 3578158,
+        "source_path": "4_5/003292.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003292.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009459.parquet",
+        "size_bytes": 5922844,
+        "source_path": "4_5/009459.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009459.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004050.parquet",
+        "size_bytes": 5517340,
+        "source_path": "4_5/004050.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004050.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007372.parquet",
+        "size_bytes": 5537078,
+        "source_path": "4_5/007372.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007372.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004116.parquet",
+        "size_bytes": 5839825,
+        "source_path": "4_5/004116.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004116.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003311.parquet",
+        "size_bytes": 3385502,
+        "source_path": "4_5/003311.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003311.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008775.parquet",
+        "size_bytes": 5572016,
+        "source_path": "4_5/008775.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008775.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008881.parquet",
+        "size_bytes": 5630985,
+        "source_path": "4_5/008881.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008881.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007762.parquet",
+        "size_bytes": 5781317,
+        "source_path": "4_5/007762.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007762.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006119.parquet",
+        "size_bytes": 6393967,
+        "source_path": "4_5/006119.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006119.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000474.parquet",
+        "size_bytes": 9530637,
+        "source_path": "4_5/000474.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000474.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007538.parquet",
+        "size_bytes": 5846039,
+        "source_path": "4_5/007538.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007538.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007387.parquet",
+        "size_bytes": 5547607,
+        "source_path": "4_5/007387.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007387.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004882.parquet",
+        "size_bytes": 6178192,
+        "source_path": "4_5/004882.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004882.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005454.parquet",
+        "size_bytes": 5433423,
+        "source_path": "4_5/005454.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005454.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004487.parquet",
+        "size_bytes": 6418683,
+        "source_path": "4_5/004487.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004487.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003911.parquet",
+        "size_bytes": 23164410,
+        "source_path": "4_5/003911.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003911.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008874.parquet",
+        "size_bytes": 5638012,
+        "source_path": "4_5/008874.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008874.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003201.parquet",
+        "size_bytes": 3215566,
+        "source_path": "4_5/003201.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003201.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006872.parquet",
+        "size_bytes": 5772912,
+        "source_path": "4_5/006872.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006872.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007278.parquet",
+        "size_bytes": 5875387,
+        "source_path": "4_5/007278.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007278.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005743.parquet",
+        "size_bytes": 9759413,
+        "source_path": "4_5/005743.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005743.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004919.parquet",
+        "size_bytes": 5874930,
+        "source_path": "4_5/004919.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004919.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008127.parquet",
+        "size_bytes": 5710544,
+        "source_path": "4_5/008127.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008127.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003087.parquet",
+        "size_bytes": 2746889,
+        "source_path": "4_5/003087.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003087.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006189.parquet",
+        "size_bytes": 5536546,
+        "source_path": "4_5/006189.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006189.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005391.parquet",
+        "size_bytes": 5992144,
+        "source_path": "4_5/005391.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005391.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002511.parquet",
+        "size_bytes": 12279568,
+        "source_path": "4_5/002511.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002511.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008446.parquet",
+        "size_bytes": 5620707,
+        "source_path": "4_5/008446.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008446.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004311.parquet",
+        "size_bytes": 6204371,
+        "source_path": "4_5/004311.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004311.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002495.parquet",
+        "size_bytes": 12568137,
+        "source_path": "4_5/002495.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002495.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005126.parquet",
+        "size_bytes": 5804187,
+        "source_path": "4_5/005126.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005126.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007236.parquet",
+        "size_bytes": 5810444,
+        "source_path": "4_5/007236.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007236.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002047.parquet",
+        "size_bytes": 1084729,
+        "source_path": "4_5/002047.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002047.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004957.parquet",
+        "size_bytes": 5872260,
+        "source_path": "4_5/004957.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004957.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007798.parquet",
+        "size_bytes": 5968951,
+        "source_path": "4_5/007798.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007798.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006335.parquet",
+        "size_bytes": 5791721,
+        "source_path": "4_5/006335.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006335.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009528.parquet",
+        "size_bytes": 5680636,
+        "source_path": "4_5/009528.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009528.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008903.parquet",
+        "size_bytes": 5480836,
+        "source_path": "4_5/008903.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008903.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006943.parquet",
+        "size_bytes": 5646317,
+        "source_path": "4_5/006943.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006943.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001469.parquet",
+        "size_bytes": 28278047,
+        "source_path": "4_5/001469.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001469.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000918.parquet",
+        "size_bytes": 9373414,
+        "source_path": "4_5/000918.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000918.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009431.parquet",
+        "size_bytes": 5561027,
+        "source_path": "4_5/009431.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009431.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000575.parquet",
+        "size_bytes": 9868776,
+        "source_path": "4_5/000575.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000575.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001901.parquet",
+        "size_bytes": 37370226,
+        "source_path": "4_5/001901.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001901.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000018.parquet",
+        "size_bytes": 9462485,
+        "source_path": "4_5/000018.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000018.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001089.parquet",
+        "size_bytes": 36007180,
+        "source_path": "4_5/001089.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001089.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001510.parquet",
+        "size_bytes": 370651,
+        "source_path": "4_5/001510.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001510.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007524.parquet",
+        "size_bytes": 5821967,
+        "source_path": "4_5/007524.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007524.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006861.parquet",
+        "size_bytes": 5784885,
+        "source_path": "4_5/006861.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006861.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003849.parquet",
+        "size_bytes": 8758040,
+        "source_path": "4_5/003849.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003849.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002968.parquet",
+        "size_bytes": 2911627,
+        "source_path": "4_5/002968.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002968.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005092.parquet",
+        "size_bytes": 5715017,
+        "source_path": "4_5/005092.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005092.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000868.parquet",
+        "size_bytes": 9201202,
+        "source_path": "4_5/000868.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000868.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004330.parquet",
+        "size_bytes": 6015802,
+        "source_path": "4_5/004330.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004330.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002074.parquet",
+        "size_bytes": 104902,
+        "source_path": "4_5/002074.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002074.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003700.parquet",
+        "size_bytes": 3531200,
+        "source_path": "4_5/003700.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003700.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006847.parquet",
+        "size_bytes": 5663502,
+        "source_path": "4_5/006847.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006847.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009241.parquet",
+        "size_bytes": 5758287,
+        "source_path": "4_5/009241.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009241.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003893.parquet",
+        "size_bytes": 4529345,
+        "source_path": "4_5/003893.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003893.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008593.parquet",
+        "size_bytes": 6135788,
+        "source_path": "4_5/008593.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008593.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000949.parquet",
+        "size_bytes": 9482108,
+        "source_path": "4_5/000949.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000949.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004230.parquet",
+        "size_bytes": 8686770,
+        "source_path": "4_5/004230.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004230.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008641.parquet",
+        "size_bytes": 5637958,
+        "source_path": "4_5/008641.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008641.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004044.parquet",
+        "size_bytes": 5600031,
+        "source_path": "4_5/004044.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004044.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005228.parquet",
+        "size_bytes": 6241100,
+        "source_path": "4_5/005228.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005228.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004506.parquet",
+        "size_bytes": 6856123,
+        "source_path": "4_5/004506.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004506.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007689.parquet",
+        "size_bytes": 5990566,
+        "source_path": "4_5/007689.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007689.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008475.parquet",
+        "size_bytes": 5938826,
+        "source_path": "4_5/008475.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008475.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000543.parquet",
+        "size_bytes": 8661435,
+        "source_path": "4_5/000543.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000543.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000422.parquet",
+        "size_bytes": 9185345,
+        "source_path": "4_5/000422.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000422.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007645.parquet",
+        "size_bytes": 5839427,
+        "source_path": "4_5/007645.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007645.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003729.parquet",
+        "size_bytes": 14978854,
+        "source_path": "4_5/003729.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003729.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004377.parquet",
+        "size_bytes": 6368166,
+        "source_path": "4_5/004377.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004377.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001869.parquet",
+        "size_bytes": 5269537,
+        "source_path": "4_5/001869.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001869.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004563.parquet",
+        "size_bytes": 6079900,
+        "source_path": "4_5/004563.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004563.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004288.parquet",
+        "size_bytes": 6848503,
+        "source_path": "4_5/004288.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004288.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000726.parquet",
+        "size_bytes": 8960681,
+        "source_path": "4_5/000726.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000726.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003197.parquet",
+        "size_bytes": 3387421,
+        "source_path": "4_5/003197.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003197.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000769.parquet",
+        "size_bytes": 8960352,
+        "source_path": "4_5/000769.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000769.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005593.parquet",
+        "size_bytes": 8576714,
+        "source_path": "4_5/005593.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005593.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006619.parquet",
+        "size_bytes": 5532373,
+        "source_path": "4_5/006619.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006619.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009513.parquet",
+        "size_bytes": 5654275,
+        "source_path": "4_5/009513.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009513.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007125.parquet",
+        "size_bytes": 5629625,
+        "source_path": "4_5/007125.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007125.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001256.parquet",
+        "size_bytes": 50973,
+        "source_path": "4_5/001256.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001256.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002872.parquet",
+        "size_bytes": 2785650,
+        "source_path": "4_5/002872.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002872.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009145.parquet",
+        "size_bytes": 5988674,
+        "source_path": "4_5/009145.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009145.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002033.parquet",
+        "size_bytes": 56569330,
+        "source_path": "4_5/002033.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002033.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006299.parquet",
+        "size_bytes": 5890564,
+        "source_path": "4_5/006299.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006299.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003819.parquet",
+        "size_bytes": 3431687,
+        "source_path": "4_5/003819.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003819.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005417.parquet",
+        "size_bytes": 9315903,
+        "source_path": "4_5/005417.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005417.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006994.parquet",
+        "size_bytes": 5868236,
+        "source_path": "4_5/006994.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006994.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003814.parquet",
+        "size_bytes": 3579012,
+        "source_path": "4_5/003814.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003814.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009346.parquet",
+        "size_bytes": 5567825,
+        "source_path": "4_5/009346.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009346.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009064.parquet",
+        "size_bytes": 5616561,
+        "source_path": "4_5/009064.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009064.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005771.parquet",
+        "size_bytes": 9516536,
+        "source_path": "4_5/005771.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005771.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001804.parquet",
+        "size_bytes": 251663,
+        "source_path": "4_5/001804.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001804.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006915.parquet",
+        "size_bytes": 5882906,
+        "source_path": "4_5/006915.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006915.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004597.parquet",
+        "size_bytes": 5584157,
+        "source_path": "4_5/004597.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004597.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001522.parquet",
+        "size_bytes": 403019,
+        "source_path": "4_5/001522.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001522.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005104.parquet",
+        "size_bytes": 6051395,
+        "source_path": "4_5/005104.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005104.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003831.parquet",
+        "size_bytes": 3604873,
+        "source_path": "4_5/003831.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003831.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001953.parquet",
+        "size_bytes": 362096,
+        "source_path": "4_5/001953.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001953.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003866.parquet",
+        "size_bytes": 15292109,
+        "source_path": "4_5/003866.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003866.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001768.parquet",
+        "size_bytes": 230551,
+        "source_path": "4_5/001768.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001768.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007631.parquet",
+        "size_bytes": 5475345,
+        "source_path": "4_5/007631.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007631.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005804.parquet",
+        "size_bytes": 7374463,
+        "source_path": "4_5/005804.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005804.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004212.parquet",
+        "size_bytes": 6613669,
+        "source_path": "4_5/004212.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004212.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001491.parquet",
+        "size_bytes": 439749,
+        "source_path": "4_5/001491.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001491.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003334.parquet",
+        "size_bytes": 12835753,
+        "source_path": "4_5/003334.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003334.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008967.parquet",
+        "size_bytes": 5593196,
+        "source_path": "4_5/008967.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008967.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006234.parquet",
+        "size_bytes": 5752554,
+        "source_path": "4_5/006234.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006234.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003099.parquet",
+        "size_bytes": 3021367,
+        "source_path": "4_5/003099.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003099.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002610.parquet",
+        "size_bytes": 2870438,
+        "source_path": "4_5/002610.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002610.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004485.parquet",
+        "size_bytes": 6760272,
+        "source_path": "4_5/004485.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004485.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004434.parquet",
+        "size_bytes": 6543462,
+        "source_path": "4_5/004434.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004434.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000202.parquet",
+        "size_bytes": 9472750,
+        "source_path": "4_5/000202.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000202.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001592.parquet",
+        "size_bytes": 109562792,
+        "source_path": "4_5/001592.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001592.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002278.parquet",
+        "size_bytes": 1195654,
+        "source_path": "4_5/002278.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002278.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002164.parquet",
+        "size_bytes": 1013624,
+        "source_path": "4_5/002164.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002164.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004081.parquet",
+        "size_bytes": 5007820,
+        "source_path": "4_5/004081.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004081.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001368.parquet",
+        "size_bytes": 2931155,
+        "source_path": "4_5/001368.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001368.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001000.parquet",
+        "size_bytes": 9522954,
+        "source_path": "4_5/001000.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001000.parquet"
+      },
+      {
+        "filename": "pretrain_zh_001997.parquet",
+        "size_bytes": 374011,
+        "source_path": "4_5/001997.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/001997.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009338.parquet",
+        "size_bytes": 5687388,
+        "source_path": "4_5/009338.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009338.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007521.parquet",
+        "size_bytes": 5560793,
+        "source_path": "4_5/007521.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007521.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002449.parquet",
+        "size_bytes": 573686,
+        "source_path": "4_5/002449.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002449.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008396.parquet",
+        "size_bytes": 5729367,
+        "source_path": "4_5/008396.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008396.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005610.parquet",
+        "size_bytes": 6013042,
+        "source_path": "4_5/005610.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005610.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007741.parquet",
+        "size_bytes": 5743793,
+        "source_path": "4_5/007741.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007741.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003208.parquet",
+        "size_bytes": 3076166,
+        "source_path": "4_5/003208.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003208.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003509.parquet",
+        "size_bytes": 14771333,
+        "source_path": "4_5/003509.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003509.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002288.parquet",
+        "size_bytes": 1243596,
+        "source_path": "4_5/002288.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002288.parquet"
+      },
+      {
+        "filename": "pretrain_zh_007580.parquet",
+        "size_bytes": 5459645,
+        "source_path": "4_5/007580.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/007580.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006306.parquet",
+        "size_bytes": 5312247,
+        "source_path": "4_5/006306.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006306.parquet"
+      },
+      {
+        "filename": "pretrain_zh_009327.parquet",
+        "size_bytes": 5381146,
+        "source_path": "4_5/009327.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/009327.parquet"
+      },
+      {
+        "filename": "pretrain_zh_002596.parquet",
+        "size_bytes": 2819184,
+        "source_path": "4_5/002596.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/002596.parquet"
+      },
+      {
+        "filename": "pretrain_zh_008478.parquet",
+        "size_bytes": 5923238,
+        "source_path": "4_5/008478.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/008478.parquet"
+      },
+      {
+        "filename": "pretrain_zh_005400.parquet",
+        "size_bytes": 6205807,
+        "source_path": "4_5/005400.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/005400.parquet"
+      },
+      {
+        "filename": "pretrain_zh_003533.parquet",
+        "size_bytes": 14288728,
+        "source_path": "4_5/003533.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/003533.parquet"
+      },
+      {
+        "filename": "pretrain_zh_000213.parquet",
+        "size_bytes": 8974589,
+        "source_path": "4_5/000213.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/000213.parquet"
+      },
+      {
+        "filename": "pretrain_zh_004129.parquet",
+        "size_bytes": 6201316,
+        "source_path": "4_5/004129.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/004129.parquet"
+      },
+      {
+        "filename": "pretrain_zh_006646.parquet",
+        "size_bytes": 5829655,
+        "source_path": "4_5/006646.parquet",
+        "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/resolve/a5b574efa48beb3a8f6887ef0b093becf004328b/4_5/006646.parquet"
+      }
+    ]
+  },
+  {
+    "name": "pretrain_en",
+    "dataset": "HuggingFaceFW/fineweb-edu",
+    "config": "sample-10BT",
+    "split": "train",
+    "source_revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+    "parquet_revision": "92cece42bcce787ee4af4619ab449fe48d86230d",
+    "card_license": "odc-by",
+    "files": [
+      {
+        "filename": "pretrain_en_0001.parquet",
+        "size_bytes": 2152222432,
+        "source_path": "sample-10BT/train/0001.parquet",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/92cece42bcce787ee4af4619ab449fe48d86230d/sample-10BT/train/0001.parquet"
+      }
+    ],
+    "selection": "第一版未使用的0001分片；清洗时再做跨版本去重"
+  }
+]

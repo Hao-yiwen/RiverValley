@@ -1,0 +1,18 @@
+RiverValley
+Copyright 2026 RiverValley contributors
+
+本项目自主源码按 Apache License, Version 2.0 发布，完整条款见 LICENSE。
+该授权不替代第三方代码、数据、分词器来源或模型权重各自的授权条件。
+
+src/scripts/train_reason.py 和 src/scripts/train_grpo.py 声明参考了
+jingyaogong/minimind 的对应训练实现：
+https://github.com/jingyaogong/minimind
+上游当前许可证为 Apache-2.0：
+https://github.com/jingyaogong/minimind/blob/master/LICENSE
+保留这些来源说明；不能据此宣称本项目的全部实现均为独立原创。
+
+PyTorch、Transformers、Tokenizers 等依赖由安装环境单独提供，
+其许可证及版权声明继续适用，见 docs/third_party.md。
+
+训练数据的来源、版本及尚未解决的许可事项见 docs/data_sources.md。
+检查点的许可证仍待核实，不因本源码仓库包含 LICENSE 而自动获得 Apache-2.0 授权。

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "translation_en_zh",
+    "dataset": "Helsinki-NLP/opus-100",
+    "config": "en-zh",
+    "split": "train",
+    "source_revision": "805090dc28bf78897da9641cdf08b61287580df9",
+    "parquet_revision": "95bf3a868db02e3e99a3eb28585c30ff3ffaff54",
+    "card_license": [
+      "unknown"
+    ],
+    "files": [
+      {
+        "url": "https://huggingface.co/datasets/Helsinki-NLP/opus-100/resolve/95bf3a868db02e3e99a3eb28585c30ff3ffaff54/en-zh/train/0000.parquet",
+        "size_bytes": 142700288,
+        "filename": "translation_en_zh_0000.parquet"
+      }
+    ]
+  }
+]

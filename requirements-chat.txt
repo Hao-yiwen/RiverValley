@@ -1,0 +1,5 @@
+# 本地聊天的已验证依赖，建议使用 Python 3.12。
+torch==2.9.0
+transformers==4.57.3
+tokenizers==0.22.2
+safetensors==0.8.0

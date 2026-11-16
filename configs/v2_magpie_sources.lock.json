@@ -1,0 +1,23 @@
+[
+  {
+    "name": "sft_zh_magpie",
+    "dataset": "Magpie-Align/Magpie-Qwen2-Pro-200K-Chinese",
+    "config": "default",
+    "split": "train",
+    "source_revision": "ee71d5dbafec166eac8f5dcf9e581c90c56ce631",
+    "parquet_revision": "62ff971394ccde982efd186485d03fc275929d32",
+    "card_license": null,
+    "files": [
+      {
+        "url": "https://huggingface.co/datasets/Magpie-Align/Magpie-Qwen2-Pro-200K-Chinese/resolve/62ff971394ccde982efd186485d03fc275929d32/default/train/0000.parquet",
+        "size_bytes": 241863652,
+        "filename": "sft_zh_magpie_0000.parquet"
+      },
+      {
+        "url": "https://huggingface.co/datasets/Magpie-Align/Magpie-Qwen2-Pro-200K-Chinese/resolve/62ff971394ccde982efd186485d03fc275929d32/default/train/0001.parquet",
+        "size_bytes": 241592873,
+        "filename": "sft_zh_magpie_0001.parquet"
+      }
+    ]
+  }
+]

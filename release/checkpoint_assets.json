@@ -1,0 +1,54 @@
+{
+  "assets": {
+    "chat_template.jinja": {
+      "bytes": 173,
+      "sha256": "9fe579a2c222698c7ba22d46e26466362fbe951569a89096c366267f9b82ab92"
+    },
+    "config.json": {
+      "bytes": 930,
+      "sha256": "96a18cb33285e8305db02e7b50cce802b06075eb0f2bef59626d19590ae32395"
+    },
+    "generation_config.json": {
+      "bytes": 181,
+      "sha256": "5b68db21e8a7ba4984da0711c4a2a7d360649f2973e88dd594f791f46ad4321e"
+    },
+    "model.safetensors": {
+      "bytes": 4049971704,
+      "sha256": "1e8c6b939ae4cf17aa7fb0e94d8d6f0da0628c47a64b25da4ebec032820877e4"
+    },
+    "special_tokens_map.json": {
+      "bytes": 167,
+      "sha256": "68cd1159361754afa09b496c7b6032f600140e3e1001993feb34b3d20821e837"
+    },
+    "tokenizer.json": {
+      "bytes": 2475345,
+      "sha256": "63acb93af3eaa68437e196769cc14dac1130958605aaef360a8f311cda3a9a5f"
+    },
+    "tokenizer_config.json": {
+      "bytes": 1057,
+      "sha256": "0794dd0f6472fbc2ee34d7315ec6372ecb95d8bb4a411fe933d3b747d8a7d41f"
+    }
+  },
+  "frozen_code": {
+    "src/config.py": "95f64b527c92025a5c5a54b7631b730ab8c0a76da34f7f1d640d83a71fa0f5e4",
+    "src/model/__init__.py": "adf344fd1b1592629a37e8782d60630addc7fb5d943f4db8643e14109a182bf2",
+    "src/model/attention.py": "bb13da055e92377dc2eb141ac2ffe155c89f0f5d5f327afc23a582fa69372557",
+    "src/model/block.py": "33a58804792e97904478a140f5154ab9be98bfa0026007778b4c3767799a4ef0",
+    "src/model/embeddings.py": "05c4c2dbc1a0238bac1eedc02517fa0fbf3a46579303b0c29123a2ef257c1cc9",
+    "src/model/feedforward.py": "034bb01f788a48e279c4c852df2cc82dd98bf222a77a2017ed4480fd9e997308",
+    "src/model/gpt.py": "557dee88819404ab86d79752cc3e10a41a645df97082e0f9e8151a9c57ed0ad7",
+    "src/model/losses.py": "2aa888e290ea34fe36f6dfeff55bc04564aa7757b41f2106f3c4e9b8984359cb",
+    "src/model/moe.py": "eaf8c093f51240480d313308e89d69da4c3d399bdbfb15753fa91a63a327443e",
+    "src/scripts/inference.py": "3b8552eead164d7a4c7d177b6973ea2cadb96c9a5166a035ffed5bda638dafc9"
+  },
+  "evidence": {
+    "delivery_receipt.json": "8013c0613ddb6ecfa681d3767bc6bc3810e059b4289a6755e97f95206b2a765a",
+    "candidate_selection.json": "ff96484aed2c4759d9c3aab1dba3150472574e61aaae543e2115386df0b423a8",
+    "holdout_binding.json": "6e2be4d9bc0931110d26871628447673f92624161750c1ae6bbdd48237f13c18",
+    "candidate_binding.json": "2ade8f062027af03abaf508b352216b6319e22f384bf4d2dca6daa4bad5b7cc3",
+    "baseline_review.json": "7819ef0ebaf3a7625af1b30f4c215033b9ad5f81ef543228d3ec8e57f57fd0b9",
+    "candidate_review.json": "029562b206c8531d27e270e4aa0fe408478b5f0c8f23535cf3094bd96e760119",
+    "holdout_review.json": "f032e194414e712ab0c6e626ddf24140d802b1923d386edeadceff6dcb51da57",
+    "baseline_binding.json": "93d2e8cd07f81628369e36be9c342e34b6880b16740f76dba98ded7bdbda7639"
+  }
+}

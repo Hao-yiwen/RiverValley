@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-16",
+  "model_sha256": "1e8c6b939ae4cf17aa7fb0e94d8d6f0da0628c47a64b25da4ebec032820877e4",
+  "weight_license": null,
+  "public_release_ready": false,
+  "conclusion": "权重许可尚未核实完成；已发出针对明确缺口的询问，等待上游答复。",
+  "sources": [
+    {
+      "repo": "opencsg/chinese-fineweb-edu",
+      "actual_revision": "784f118864c0741ce32aa74d9588795bdf1a896b",
+      "path": "README.md",
+      "sha256": "89f91abd2c81a325d2adf8fbcdb5d28889b3f08c5a3fc32e628f64899c7772c1",
+      "url": "https://huggingface.co/datasets/opencsg/chinese-fineweb-edu/blob/784f118864c0741ce32aa74d9588795bdf1a896b/README.md",
+      "main_matches_training_revision_on_review_date": true,
+      "status": "blocked_pending_written_clarification",
+      "finding": "Apache-2.0 标签与社区协议、商用须取得许可的正文同时存在；尚无完整社区协议版本及下游权重授权确认。"
+    },
+    {
+      "repo": "opencsg/Fineweb-Edu-Chinese-V2.1",
+      "actual_revision": "a5b574efa48beb3a8f6887ef0b093becf004328b",
+      "path": "README.md",
+      "sha256": "507829a953999aca22370919a3d41e225a09e5ab6cbc5eb3f64e3f76311ac26c",
+      "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1/blob/a5b574efa48beb3a8f6887ef0b093becf004328b/README.md",
+      "main_matches_training_revision_on_review_date": true,
+      "status": "blocked_pending_written_clarification",
+      "finding": "固定训练版本同样含社区协议和商用须取得许可的要求，不是近期网页变更。"
+    },
+    {
+      "repo": "m-a-p/COIG-CQIA",
+      "actual_revision": "8b55868c6168adf86c30e7ca0f782cca1c514297",
+      "path": "README.md",
+      "sha256": "ca62e57b0e440a2b698e8579f4db59bbf073b8674576834ea984f3b402330a07",
+      "url": "https://huggingface.co/datasets/m-a-p/COIG-CQIA/blob/8b55868c6168adf86c30e7ca0f782cca1c514297/README.md",
+      "main_matches_training_revision_on_review_date": true,
+      "status": "blocked_pending_subset_license",
+      "finding": "固定版本未给出明确数据集许可；COIG-PC-core 上游默认 Apache-2.0 服从各子数据集声明，不能覆盖 CQIA wiki 或替代逐条来源核实。"
+    },
+    {
+      "repo": "Magpie-Align/Magpie-Qwen2-Pro-200K-Chinese",
+      "actual_revision": "ee71d5dbafec166eac8f5dcf9e581c90c56ce631",
+      "path": "README.md",
+      "sha256": "124e268ed0fba051fa0e4eb87b31127d8f64615abedb404b6872bbcc7013764b",
+      "url": "https://huggingface.co/datasets/Magpie-Align/Magpie-Qwen2-Pro-200K-Chinese/blob/ee71d5dbafec166eac8f5dcf9e581c90c56ce631/README.md",
+      "main_matches_training_revision_on_review_date": true,
+      "status": "blocked_pending_dataset_license",
+      "finding": "固定数据卡未声明许可；框架代码 MIT 和论文许可均不等于该数据集或下游权重授权。"
+    },
+    {
+      "repo": "bdx33/tatoeba-hsk-cmn-eng-fra",
+      "actual_revision": "e861cb8efd67d1d2a8fac9412228f9854c6f3345",
+      "path": "README.md",
+      "sha256": "98c8fe2682fa407d544e16b3597e1da60e522597af4cabcd66f45ffdacf05180",
+      "url": "https://huggingface.co/datasets/bdx33/tatoeba-hsk-cmn-eng-fra/blob/e861cb8efd67d1d2a8fac9412228f9854c6f3345/README.md",
+      "main_matches_training_revision_on_review_date": true,
+      "status": "attribution_index_prepared_with_gaps",
+      "finding": "整理版声明 CC-BY-2.0；Tatoeba 现行文本条款为 CC-BY-2.0-FR。已整理句子链接及当前所有者索引，仍有孤儿句和缺失句需要确认署名处理。"
+    },
+    {
+      "repo": "HuggingFaceTB/smol-smoltalk",
+      "actual_revision": "f73fe857d519ff6ac5af2ea67c4d3834da7b8bcc",
+      "path": "README.md",
+      "sha256": "4de8fe5ebb738a835f780332c35ec5a7dd1e8dae058308e7caa176dca6bbf808",
+      "url": "https://huggingface.co/datasets/HuggingFaceTB/smol-smoltalk/blob/f73fe857d519ff6ac5af2ea67c4d3834da7b8bcc/README.md",
+      "main_matches_training_revision_on_review_date": true,
+      "status": "declared_apache_2_0_preserve_subsources",
+      "finding": "固定版本声明 Apache-2.0；保留实际使用的混合子来源，不把整卡声明当成所有原始文本的独立权利保证。"
+    },
+    {
+      "repo": "HuggingFaceFW/fineweb-edu",
+      "actual_revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+      "path": "README.md",
+      "sha256": "a0cc8998a20499432b28b6575f3046b714938eb8e11b8d59a1d25ddf3716061e",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/blob/87f09149ef4734204d70ed1d046ddc9ca3f2b8f9/README.md",
+      "status": "declared_odc_by_preserve_common_crawl_terms",
+      "finding": "固定数据卡声明 ODC-By-1.0 并要求遵守 Common Crawl 使用条款；保留数据集署名及原网页权利边界。"
+    }
+  ],
+  "additional_evidence": [
+    {
+      "url": "https://huggingface.co/datasets/BAAI/COIG-PC-core",
+      "finding": "上游正文给出无单独声明子数据集的默认 Apache-2.0，已有声明优先；不足以直接确定本次 CQIA 子集授权。"
+    },
+    {
+      "url": "https://github.com/magpie-align/magpie/blob/main/LICENSE",
+      "finding": "MIT 适用于框架代码，不能据此给 Hugging Face 数据集补填许可证。"
+    },
+    {
+      "url": "https://tatoeba.org/en/terms_of_use",
+      "finding": "现行条款 6.2 / 6.5 要求尊重句子许可和作者署名；旧版条款中的链接署名方式不能无条件替代现行条款。"
+    }
+  ],
+  "outreach": [
+    {
+      "recipient": "lorraineg@opencsg.com",
+      "channel": "email",
+      "sent_on": "2026-11-16",
+      "status": "sent_awaiting_reply",
+      "scope": [
+        "opencsg/chinese-fineweb-edu",
+        "opencsg/Fineweb-Edu-Chinese-V2.1"
+      ]
+    },
+    {
+      "repo_id": "m-a-p/COIG-CQIA",
+      "discussion": 32,
+      "url": "https://huggingface.co/datasets/m-a-p/COIG-CQIA/discussions/32#6afa7279de7795c7c04fc407",
+      "comment_id": "6afa7279de7795c7c04fc407",
+      "author": "yiwenX",
+      "sent_on": "2026-11-16",
+      "status": "sent_verified_awaiting_maintainer_reply"
+    },
+    {
+      "repo_id": "Magpie-Align/Magpie-Qwen2-Pro-200K-Chinese",
+      "discussion": 4,
+      "url": "https://huggingface.co/datasets/Magpie-Align/Magpie-Qwen2-Pro-200K-Chinese/discussions/4#6afa72823deee809df7c5aa4",
+      "comment_id": "6afa72823deee809df7c5aa4",
+      "author": "yiwenX",
+      "sent_on": "2026-11-16",
+      "status": "sent_verified_awaiting_maintainer_reply"
+    }
+  ],
+  "outreach_authorized_by_owner": true,
+  "tatoeba_attribution": "release/tatoeba_attribution.json"
+}

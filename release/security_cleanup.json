@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-16",
+  "status": "writable_history_clean_readonly_cache_pending",
+  "remote_branches_verified": 5,
+  "rewritten_branches": 4,
+  "known_credential_hits_after_cleanup": 0,
+  "gitleaks_findings_after_cleanup": 0,
+  "main_source_tree_preserved": true,
+  "github_readonly_pull_cache": "support_request_submitted_awaiting_review",
+  "external_credential_revocation": "unconfirmed_by_repository_owner",
+  "old_local_clones_and_private_backup": "retained_for_uncommitted_work_and_recovery_do_not_repush",
+  "github_support_request": {
+    "submitted_on": "2026-11-16",
+    "submission_confirmed": true,
+    "case_number": null,
+    "purge_confirmed": false,
+    "credential_validity_disclosed_as": "unconfirmed",
+    "request_included_plaintext_credential": false
+  },
+  "visibility_decision": "publish_independent_clean_source_snapshot_keep_legacy_repo_and_weights_private",
+  "public_source_repository": "Hao-yiwen/RiverValley",
+  "public_source_history_included": false
+}

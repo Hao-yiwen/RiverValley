@@ -1,0 +1,14 @@
+# 核心依赖
+torch>=2.5.0
+transformers>=4.57.3,<5
+tokenizers>=0.22.0,<0.23
+safetensors>=0.3.0
+
+# 数据处理
+pyarrow>=22.0.0
+numpy>=1.26.0
+requests>=2.31.0
+langid==1.1.6
+
+# 训练可视化（可选）
+swanlab>=0.1.0

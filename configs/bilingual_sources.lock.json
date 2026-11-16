@@ -1,0 +1,76 @@
+[
+  {
+    "name": "pretrain_zh",
+    "dataset": "opencsg/chinese-fineweb-edu",
+    "config": "default",
+    "split": "train",
+    "source_revision": "784f118864c0741ce32aa74d9588795bdf1a896b",
+    "parquet_revision": "1c660cf78baf9baa12d49bf16f50ead78b4f0fcd",
+    "card_license": "apache-2.0",
+    "files": [
+      {
+        "url": "https://huggingface.co/datasets/opencsg/chinese-fineweb-edu/resolve/1c660cf78baf9baa12d49bf16f50ead78b4f0fcd/default/partial-train/0000.parquet",
+        "size_bytes": 840431655,
+        "filename": "pretrain_zh_0000.parquet"
+      },
+      {
+        "url": "https://huggingface.co/datasets/opencsg/chinese-fineweb-edu/resolve/1c660cf78baf9baa12d49bf16f50ead78b4f0fcd/default/partial-train/0001.parquet",
+        "size_bytes": 849557511,
+        "filename": "pretrain_zh_0001.parquet"
+      },
+      {
+        "url": "https://huggingface.co/datasets/opencsg/chinese-fineweb-edu/resolve/1c660cf78baf9baa12d49bf16f50ead78b4f0fcd/default/partial-train/0002.parquet",
+        "size_bytes": 855235911,
+        "filename": "pretrain_zh_0002.parquet"
+      }
+    ]
+  },
+  {
+    "name": "pretrain_en",
+    "dataset": "HuggingFaceFW/fineweb-edu",
+    "config": "sample-10BT",
+    "split": "train",
+    "source_revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+    "parquet_revision": "92cece42bcce787ee4af4619ab449fe48d86230d",
+    "card_license": "odc-by",
+    "files": [
+      {
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu/resolve/92cece42bcce787ee4af4619ab449fe48d86230d/sample-10BT/train/0000.parquet",
+        "size_bytes": 2152819114,
+        "filename": "pretrain_en_0000.parquet"
+      }
+    ]
+  },
+  {
+    "name": "sft_zh",
+    "dataset": "opencsg/smoltalk-chinese",
+    "config": "default",
+    "split": "train",
+    "source_revision": "5edf5d0d7b06794755cf78b274a150a4efe1c9d4",
+    "parquet_revision": "e7b8456f329d9390c1c225d6b87906bb90f8ed01",
+    "card_license": "apache-2.0",
+    "files": [
+      {
+        "url": "https://huggingface.co/datasets/opencsg/smoltalk-chinese/resolve/e7b8456f329d9390c1c225d6b87906bb90f8ed01/default/train/0000.parquet",
+        "size_bytes": 31104776,
+        "filename": "sft_zh_0000.parquet"
+      }
+    ]
+  },
+  {
+    "name": "sft_en",
+    "dataset": "HuggingFaceTB/smol-smoltalk",
+    "config": "default",
+    "split": "train",
+    "source_revision": "f73fe857d519ff6ac5af2ea67c4d3834da7b8bcc",
+    "parquet_revision": "b2681b659bcbe375f3735247b4a62b7d0832d177",
+    "card_license": "apache-2.0",
+    "files": [
+      {
+        "url": "https://huggingface.co/datasets/HuggingFaceTB/smol-smoltalk/resolve/b2681b659bcbe375f3735247b4a62b7d0832d177/default/train/0000.parquet",
+        "size_bytes": 229710350,
+        "filename": "sft_en_0000.parquet"
+      }
+    ]
+  }
+]

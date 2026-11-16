@@ -1,0 +1,11 @@
+{
+  "url": "https://huggingface.co/datasets/bdx33/tatoeba-hsk-cmn-eng-fra/resolve/e861cb8efd67d1d2a8fac9412228f9854c6f3345/train.jsonl",
+  "source_revision": "e861cb8efd67d1d2a8fac9412228f9854c6f3345",
+  "sha256": "4bedf597ed83f1d9a8dfd5380d57dbdd87ec2671b22f92bd5921f5f039067885",
+  "bytes": 14799126,
+  "paired_rows": 64735,
+  "source": "bdx33/tatoeba-hsk-cmn-eng-fra",
+  "license": "cc-by-2.0",
+  "retrieved": "2026-10-19",
+  "note": "ManyThings 原站下载返回406，使用公开 HSK 分级 Tatoeba 整理版，逐条保留原句 ID，未声称逐条人工验真。"
+}

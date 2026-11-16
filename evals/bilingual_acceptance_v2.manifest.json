@@ -1,0 +1,12 @@
+{
+  "rows": 240,
+  "semantic_groups": 120,
+  "languages": {
+    "zh": 120,
+    "en": 120
+  },
+  "sha256": "f3e4b3c1ece730953eaf174a0b2e6f71bd3763e40cc856e53ea764964b2342ee",
+  "status": "superseded_before_training_or_evaluation",
+  "limitations": "项目内自建验收，部分题共享模板，双语题配对；不是权威榜单或240个独立统计样本。只在最终候选锁定后使用。",
+  "reason": "开发集题意复核发现根的作用和蒸发与第一版开发题重叠，创建独立修订集，不改写已冻结原件。"
+}

@@ -1,0 +1,39 @@
+{
+  "release_name": "rivervalley-1b-experimental-20261110",
+  "prepared_on": "2026-11-16",
+  "source_license": "Apache-2.0",
+  "weight_license": null,
+  "weight_publication_status": "uploaded_private_pending_upstream_license_review",
+  "proposed_hf_repo": "yiwenX/RiverValley-1B-Experimental-20261110",
+  "model_sha256": "1e8c6b939ae4cf17aa7fb0e94d8d6f0da0628c47a64b25da4ebec032820877e4",
+  "weight_publication_blockers": [
+    "两个 OpenCSG 固定版本均含社区协议及商用授权要求，已发询问，等待明确条款及下游权重授权。",
+    "COIG-CQIA wiki/coig_pc 和 Magpie 的固定版本授权及下游权重条件已发询问，等待维护者明确答复。",
+    "Tatoeba 训练材料已整理 23,052 个句子 ID 的来源索引，其中 582 个孤儿句与 1 个缺失句的署名处理仍需确认；不分发原始句对。",
+    "根据核实结果确定权重许可证；源码 Apache-2.0 不自动覆盖权重与第三方数据。"
+  ],
+  "source_cleanup_status": "writable_history_clean_readonly_cache_pending",
+  "hf_repo": "yiwenX/RiverValley-1B-Experimental-20261110",
+  "hf_revision": "172441396568aef1230586da5993eac069526e34",
+  "public_release_ready": false,
+  "publication_hold": {
+    "active": true,
+    "requested_on": "2026-11-16",
+    "requested_by": "repository_owner",
+    "reason": "用户已授权独立源码快照开源；原开发仓库与模型权重继续私有，旧凭据、缓存及权重许可仍待核实。",
+    "release_requires_new_owner_instruction": true,
+    "scope": [
+      "legacy_development_repository",
+      "huggingface_model_weights"
+    ]
+  },
+  "source_repo": "Hao-yiwen/RiverValley",
+  "source_publication_status": "approved_for_clean_snapshot_publication",
+  "source_public_release_ready": true,
+  "source_history_included": false,
+  "legacy_repository_publication_blockers": [
+    "远端可写历史已清理；GitHub 旧 MR 只读引用及缓存清理申请已提交，尚无清除确认。",
+    "账户所有者尚不能确认旧外部登录凭据已失效；按用户指示继续保持私有。"
+  ],
+  "source_publication_blockers": []
+}

@@ -1,0 +1,11 @@
+{
+  "rows": 240,
+  "semantic_groups": 120,
+  "languages": {
+    "zh": 120,
+    "en": 120
+  },
+  "sha256": "07befc8f9c23e70eb9eac45323fa12f83745aee6fd3d723d3443d5527bdd38e7",
+  "status": "frozen_not_yet_run",
+  "limitations": "项目内自建验收，部分题共享模板，双语题配对；不是权威榜单或240个独立统计样本。只在最终候选锁定后使用。"
+}

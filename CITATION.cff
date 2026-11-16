@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "如果本项目对你的研究有帮助，请引用源码仓库，并注明实际使用的检查点版本与摘要。"
+title: RiverValley
+type: software
+authors:
+  - name: "RiverValley contributors"
+repository-code: "https://github.com/Hao-yiwen/RiverValley"
+license: Apache-2.0
+abstract: "面向中英文语言模型训练、断点恢复、评估和本地推理的实验项目。该引用中的许可证仅指源码。"

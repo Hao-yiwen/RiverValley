@@ -1,0 +1,14 @@
+{
+  "status": "uploaded_private_verified",
+  "repo_id": "yiwenX/RiverValley-1B-Experimental-20261110",
+  "url": "https://huggingface.co/yiwenX/RiverValley-1B-Experimental-20261110",
+  "revision": "172441396568aef1230586da5993eac069526e34",
+  "private": true,
+  "model_sha256": "1e8c6b939ae4cf17aa7fb0e94d8d6f0da0628c47a64b25da4ebec032820877e4",
+  "files_verified": 27,
+  "verification": "模型由服务器 LFS SHA256 和大小核验；其他文件下载后逐项 SHA256 核验",
+  "weight_license": null,
+  "public_release_ready": false,
+  "previous_revision": "e01559c47ba9d760a1f5e61f829fd14f8ece27f9",
+  "update_description": "补充许可询问证据、Tatoeba 署名索引和用户要求继续私有的记录；权重及冻结推理源码保持原摘要。"
+}

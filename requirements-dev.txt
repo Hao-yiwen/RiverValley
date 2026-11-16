@@ -1,0 +1,3 @@
+# 完整测试依赖；推理版本约束由 requirements-chat.txt 单独提供。
+-r requirements.txt
+pytest>=8,<10

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "sft_zh_cqia_wiki",
+    "dataset": "m-a-p/COIG-CQIA",
+    "config": "wiki",
+    "split": "train",
+    "source_revision": "8b55868c6168adf86c30e7ca0f782cca1c514297",
+    "parquet_revision": "40339ef3a673425b17c6ee331d1c4c3e455f0aa9",
+    "card_license": null,
+    "files": [
+      {
+        "url": "https://huggingface.co/datasets/m-a-p/COIG-CQIA/resolve/40339ef3a673425b17c6ee331d1c4c3e455f0aa9/wiki/train/0000.parquet",
+        "size_bytes": 10396744,
+        "filename": "sft_zh_cqia_wiki_0000.parquet"
+      }
+    ]
+  },
+  {
+    "name": "sft_zh_cqia_coig_pc",
+    "dataset": "m-a-p/COIG-CQIA",
+    "config": "coig_pc",
+    "split": "train",
+    "source_revision": "8b55868c6168adf86c30e7ca0f782cca1c514297",
+    "parquet_revision": "40339ef3a673425b17c6ee331d1c4c3e455f0aa9",
+    "card_license": null,
+    "files": [
+      {
+        "url": "https://huggingface.co/datasets/m-a-p/COIG-CQIA/resolve/40339ef3a673425b17c6ee331d1c4c3e455f0aa9/coig_pc/train/0000.parquet",
+        "size_bytes": 1949197,
+        "filename": "sft_zh_cqia_coig_pc_0000.parquet"
+      }
+    ]
+  },
+  {
+    "name": "sft_zh_cqia_chinese_traditional",
+    "dataset": "m-a-p/COIG-CQIA",
+    "config": "chinese_traditional",
+    "split": "train",
+    "source_revision": "8b55868c6168adf86c30e7ca0f782cca1c514297",
+    "parquet_revision": "40339ef3a673425b17c6ee331d1c4c3e455f0aa9",
+    "card_license": null,
+    "files": [
+      {
+        "url": "https://huggingface.co/datasets/m-a-p/COIG-CQIA/resolve/40339ef3a673425b17c6ee331d1c4c3e455f0aa9/chinese_traditional/train/0000.parquet",
+        "size_bytes": 501853,
+        "filename": "sft_zh_cqia_chinese_traditional_0000.parquet"
+      }
+    ]
+  },
+  {
+    "name": "sft_zh_cqia_wikihow",
+    "dataset": "m-a-p/COIG-CQIA",
+    "config": "wikihow",
+    "split": "train",
+    "source_revision": "8b55868c6168adf86c30e7ca0f782cca1c514297",
+    "parquet_revision": "40339ef3a673425b17c6ee331d1c4c3e455f0aa9",
+    "card_license": null,
+    "files": [
+      {
+        "url": "https://huggingface.co/datasets/m-a-p/COIG-CQIA/resolve/40339ef3a673425b17c6ee331d1c4c3e455f0aa9/wikihow/train/0000.parquet",
+        "size_bytes": 6696641,
+        "filename": "sft_zh_cqia_wikihow_0000.parquet"
+      }
+    ]
+  },
+  {
+    "name": "sft_zh_cqia_zhihu",
+    "dataset": "m-a-p/COIG-CQIA",
+    "config": "zhihu",
+    "split": "train",
+    "source_revision": "8b55868c6168adf86c30e7ca0f782cca1c514297",
+    "parquet_revision": "40339ef3a673425b17c6ee331d1c4c3e455f0aa9",
+    "card_license": null,
+    "files": [
+      {
+        "url": "https://huggingface.co/datasets/m-a-p/COIG-CQIA/resolve/40339ef3a673425b17c6ee331d1c4c3e455f0aa9/zhihu/train/0000.parquet",
+        "size_bytes": 8996772,
+        "filename": "sft_zh_cqia_zhihu_0000.parquet"
+      }
+    ]
+  },
+  {
+    "name": "sft_zh_alpaca_gpt4",
+    "dataset": "FreedomIntelligence/alpaca-gpt4-chinese",
+    "config": "default",
+    "split": "train",
+    "source_revision": "7f2743dbdfcbccb769d52e30c2bd7c6d4499d279",
+    "parquet_revision": "303e0226890ae6a0bbc52a970dd2bc409dff943c",
+    "card_license": null,
+    "files": [
+      {
+        "url": "https://huggingface.co/datasets/FreedomIntelligence/alpaca-gpt4-chinese/resolve/303e0226890ae6a0bbc52a970dd2bc409dff943c/default/train/0000.parquet",
+        "size_bytes": 21458518,
+        "filename": "sft_zh_alpaca_gpt4_0000.parquet"
+      }
+    ]
+  }
+]
