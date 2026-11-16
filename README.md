@@ -4,7 +4,7 @@ RiverValley 是一个从零训练中英文语言模型的实验项目，包含�
 
 **源码已按 Apache-2.0 开源，首发仓库为 [Hao-yiwen/RiverValley](https://github.com/Hao-yiwen/RiverValley)。** 本仓库从经过检查的源码快照建立，不继承旧开发仓库的 Git 历史，包含训练、评估和本地推理工具，不包含训练数据或模型权重。
 
-最新检查点为 **2026-11-10 翻译修复实验版**，权重许可与署名仍在核查，尚未开放下载；私有上传的文件身份见 [上传回执](release/huggingface_upload.json)。当前模型在常识、算术、翻译和开放问答上仍有明显错误，适合学习与研究训练流程，尚未达到可靠通用助手的质量。
+最新检查点 **2026-11-10 翻译修复实验版**已在 [Hugging Face](https://huggingface.co/yiwenX/RiverValley-1B-Experimental-20261110) 公开下载，文件身份见 [上传回执](release/huggingface_upload.json)。**权重许可证、训练数据条款和署名仍在核查，公开下载不代表已取得开放许可或可自由商用。**当前模型在常识、算术、翻译和开放问答上仍有明显错误，适合学习与研究训练流程，尚未达到可靠通用助手的质量。
 
 [快速开始](docs/quickstart.md) · [模型卡草稿](release/model_card.md) · [数据来源与许可](docs/data_sources.md) · [开源审查](docs/open_source_readiness.md) · [发布操作](docs/releasing.md)
 
@@ -52,7 +52,7 @@ python src/scripts/inference.py \
   --max_tokens 160 --greedy --repetition_penalty 1.0
 ```
 
-运行推理需要自行训练得到的兼容检查点，或已获授权的检查点包；公开源码不能直接下载本项目的私有权重。架构类是 `RiverValleyModel`，尚未注册为原生 Transformers Auto 模型；检查点包提供与权重绑定的冻结推理源码。[快速开始](docs/quickstart.md) 包含独立模型包运行方式和本地网页的 CUDA / MPS / CPU 配置。
+检查点可从 Hugging Face 下载；使用前应查看模型卡中的许可缺口和能力限制。架构类是 `RiverValleyModel`，尚未注册为原生 Transformers Auto 模型；检查点包提供与权重绑定的冻结推理源码。[快速开始](docs/quickstart.md) 包含独立模型包运行方式和本地网页的 CUDA / MPS / CPU 配置。
 
 ## 训练和测试
 

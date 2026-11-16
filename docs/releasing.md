@@ -1,8 +1,8 @@
 # 发布操作
 
-采用双仓布局：GitHub 管理源码、文档、测试与数据来源锁文件；Hugging Face Hub 管理权重、分词器、模型卡与统计。模型已上传到 [yiwenX/RiverValley-1B-Experimental-20261110](https://huggingface.co/yiwenX/RiverValley-1B-Experimental-20261110)，当前为私有仓库。上传文件通过服务器核验，实际版本和权重身份见 [上传回执](../release/huggingface_upload.json)。
+采用双仓布局：GitHub 管理源码、文档、测试与数据来源锁文件；Hugging Face Hub 管理权重、分词器、模型卡与统计。模型已上传到 [yiwenX/RiverValley-1B-Experimental-20261110](https://huggingface.co/yiwenX/RiverValley-1B-Experimental-20261110)，当前已公开下载，权重许可证仍待核实。上传文件通过服务器核验，实际版本和权重身份见 [上传回执](../release/huggingface_upload.json)。
 
-所有者在 2026-11-16 授权先公开源码：从已经扫描的无历史快照独立建立 [Hao-yiwen/RiverValley](https://github.com/Hao-yiwen/RiverValley)，原开发仓库和 Hugging Face 权重继续私有。`release/policy.json` 分别记录源码发布范围及原仓库、权重的私有要求；源码公开不会解除其余范围的限制。
+所有者在 2026-11-16 授权先公开源码：从已经扫描的无历史快照独立建立 [Hao-yiwen/RiverValley](https://github.com/Hao-yiwen/RiverValley)，所有者随后进一步要求公开实验权重下载；原开发仓库继续私有。`release/policy.json` 分别记录公开请求与未完成的许可事项，不将公开下载等同于已取得开放许可证。
 
 ## 生成可审阅的发布产物
 
@@ -27,7 +27,7 @@ dist/open-source-20261116/
 
 Hub 包逐项校验 `release/checkpoint_assets.json` 固定的权重、配置、分词器、冻结推理源码和评估证据摘要。只提取统计白名单，不带出 Drive ID、账单、云端会话、训练句对和优化器状态。Hub 根目录的 `LICENSE_CODE` 仅授权附带源码，权重许可仍待解决。
 
-许可跟进版本另附 `LICENSE_REVIEW.json` 和 `TATOEBA_ATTRIBUTION.json`，将证据索引、已发询问和署名缺口与权重一起保留；发布清单同时记录所有者要求继续私有的状态。
+许可跟进版本另附 `LICENSE_REVIEW.json` 和 `TATOEBA_ATTRIBUTION.json`，将证据索引、已发询问和署名缺口与权重一起保留；发布清单同时记录原开发仓库的私有范围及实验权重公开请求。
 
 ## 检查产物
 
@@ -53,11 +53,11 @@ GitHub 旧 MR #1 / #3 的只读引用与缓存清理申请已经通过官方支�
 
 ## Hugging Face
 
-先核对 `release/policy.json` 和 [数据来源说明](data_sources.md) 中的权重许可事项。当前可将包保存为私有草稿；公开发布必须等权重许可与署名完成。
+先核对 `release/policy.json` 和 [数据来源说明](data_sources.md) 中的权重许可事项。所有者已要求在许可与署名未完成时先公开下载；现有缺口必须继续记录，不能据此宣称权重已采用 Apache-2.0 或可自由商用。
 
 固定版本数据卡的摘要与询问状态记录在 `release/license_review.json`。已发送 OpenCSG 邮件及 COIG、Magpie 许可讨论留言；等待答复期间不把缺失许可改写成 Apache-2.0。`release/tatoeba_attribution.json` 仅提供不含句子正文的来源和当前所有者索引，其覆盖范围及未匹配项不能省略。
 
-本轮使用官方 SDK 上传并完成服务器核验。后续重新构建或上传新版本时，推荐使用同一入口，它会先检查本地包、固定资产和目标仓库私有状态，再上传并核对服务器内容：
+本轮先使用官方 SDK 在私有状态下上传并核验，再根据所有者的明确指示公开可见性并做匿名下载核验。以下上传入口仍只接受私有暂存仓库；已经公开的模型仓库会被拒绝，不能用它跳过后续公开版本的资产核验：
 
 ```bash
 hf auth whoami
@@ -69,4 +69,4 @@ HF_HUB_DISABLE_XET=1 python src/scripts/upload_huggingface_release.py \
 
 本次 Xet 通道连续重试后切换为标准 HTTP/LFS，以上环境变量用于选择该通道。大权重按服务器报告的 LFS SHA256 和大小核验，其余文件下载后逐项 SHA256 核验；全部通过才原子写入完成回执。已有公开仓库会被入口拒绝，避免在许可待定时意外公开权重。
 
-权重许可确认后再补充模型卡许可证和公开版本 tag，并重新构建校验。下载时用上传回执中的实际 Hub commit 锁定版本。不要把内部 `delivery_*` 整个目录上传到 Hub。
+固定下载 tag 为 `translation-curriculum-20261110`；权重许可证字段仍留空。许可确认后再补充适用条款，并重新构建校验。下载时用上传回执中的实际 Hub commit 锁定版本。不要把内部 `delivery_*` 整个目录上传到 Hub。

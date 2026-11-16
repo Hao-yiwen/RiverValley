@@ -17,7 +17,7 @@
     "credential_validity_disclosed_as": "unconfirmed",
     "request_included_plaintext_credential": false
   },
-  "visibility_decision": "publish_independent_clean_source_snapshot_keep_legacy_repo_and_weights_private",
+  "visibility_decision": "publish_independent_source_and_experimental_weights_keep_legacy_repo_private",
   "public_source_repository": "Hao-yiwen/RiverValley",
   "public_source_history_included": false
 }

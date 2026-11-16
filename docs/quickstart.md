@@ -8,11 +8,11 @@ source .venv/bin/activate
 python -m pip install -r requirements-chat.txt
 ```
 
-本次首发只公开源码，最新检查点尚未开放下载。你可以使用自行训练得到的兼容检查点运行下方推理入口。维护者已经私有上传并核验模型包；以下下载命令仅适用于已经获得 [Hugging Face 私有模型仓库](https://huggingface.co/yiwenX/RiverValley-1B-Experimental-20261110) 访问权限的账号，普通访问者无法下载：
+最新实验检查点已在 [Hugging Face](https://huggingface.co/yiwenX/RiverValley-1B-Experimental-20261110) 公开下载，无需私有访问权限。权重许可证、训练数据条款和署名仍未核实完成；公开下载不代表获得自由商用或再分发授权。以下版本绑定同一份已核验权重：
 
 ```bash
 hf download yiwenX/RiverValley-1B-Experimental-20261110 \
-  --revision 172441396568aef1230586da5993eac069526e34 \
+  --revision translation-curriculum-20261110 \
   --local-dir checkpoints/huggingface_20261110
 ```
 

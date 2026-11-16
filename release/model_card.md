@@ -20,9 +20,9 @@ datasets:
 
 # RiverValley 1B — 2026-11-10 实验检查点
 
-**本检查点仅供私有分发，权重许可仍在核查中，尚未公开发布。** 源码采用 Apache-2.0，具体范围见 `LICENSE_CODE` 与 `NOTICE_CODE`；这不构成对模型权重或第三方训练数据的 Apache-2.0 授权。
+**本检查点已公开下载，但训练数据条款、署名及权重许可证仍未核实完成。公开下载不代表已取得开放许可证，也不代表可以自由商用。** 源码采用 Apache-2.0，具体范围见 `LICENSE_CODE` 与 `NOTICE_CODE`；这不构成对模型权重或第三方训练数据的 Apache-2.0 授权。
 
-2026-11-16，所有者授权从干净快照建立独立的公开源码仓库。原开发仓库和 Hugging Face 权重继续私有；源码的公开不代表权重已取得公开分发授权。
+2026-11-16，所有者在公开独立源码仓库后，明确要求公开最新实验权重。许可询问仍待上游答复，本模型卡保留全部已知缺口，不将该请求视为第三方授权或许可核查完成。原开发仓库继续私有。
 
 这是从零预训练实验继续迭代得到的中英文稠密语言模型，适合研究训练流程、数据清洗、指令修复和评估，不是可靠的通用聊天助手。常识、算术、翻译和开放问答仍会出现明显错误。项目内评分由 Codex 逐题复核，尚无独立人工验收或标准公开基准成绩。
 
@@ -61,9 +61,12 @@ datasets:
 
 ## 使用
 
-需要 Python 3.12 和包内固定依赖。自定义架构尚未注册到原生 Transformers Auto 类；使用随检查点保存的冻结源码：
+需要 Python 3.12 和包内固定依赖。可匿名下载检查点；自定义架构尚未注册到原生 Transformers Auto 类，需使用随检查点保存的冻结源码：
 
 ```bash
+hf download yiwenX/RiverValley-1B-Experimental-20261110 \
+  --revision translation-curriculum-20261110 \
+  --local-dir /absolute/path/to/downloaded-model
 cd /absolute/path/to/downloaded-model
 python -m pip install -r requirements-chat.txt
 python rivervalley_code/src/scripts/inference.py \
@@ -75,7 +78,7 @@ FP32 权重约 4.05 GB，实际推理需要额外内存。默认使用 CUDA 或 
 
 ## 数据与许可待办
 
-完整来源、固定版本和排除关系见 `DATA_SOURCES.md`。需要核实 OpenCSG 社区协议与商用授权条件、COIG-CQIA 和 Magpie 的分发授权，并整理 Tatoeba 作者署名后再确定权重许可证。数据卡的顶层标签不能覆盖正文的附加条款。当前不填写未经确认的权重许可证，也不声明可自由商用。
+完整来源、固定版本和排除关系见 `DATA_SOURCES.md`。OpenCSG 社区协议与商用授权条件、COIG-CQIA 和 Magpie 的授权，以及 Tatoeba 作者署名仍需核实。所有者选择在这些事项未完成时先公开下载，不能据此确定权重许可证或认为上游已经授权。数据卡的顶层标签不能覆盖正文的附加条款。当前不填写未经确认的权重许可证，也不声明可自由商用。
 
 已核对固定训练版本的许可正文，并发送 OpenCSG 邮件以及 COIG、Magpie 现有许可讨论留言，尚待明确答复。Tatoeba 已整理训练材料并集的 23,052 个句子 ID 与当前所有者索引，其中 582 个孤儿句、1 个未匹配句及完整历史作者的署名仍需确认。相关索引和证据随包附在 `TATOEBA_ATTRIBUTION.json` 与 `LICENSE_REVIEW.json`，不包含原始句子正文；对应源码文件为 `release/tatoeba_attribution.json` 与 `release/license_review.json`。
 

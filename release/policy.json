@@ -3,7 +3,7 @@
   "prepared_on": "2026-11-16",
   "source_license": "Apache-2.0",
   "weight_license": null,
-  "weight_publication_status": "uploaded_private_pending_upstream_license_review",
+  "weight_publication_status": "public_download_available_license_unresolved",
   "proposed_hf_repo": "yiwenX/RiverValley-1B-Experimental-20261110",
   "model_sha256": "1e8c6b939ae4cf17aa7fb0e94d8d6f0da0628c47a64b25da4ebec032820877e4",
   "weight_publication_blockers": [
@@ -14,26 +14,32 @@
   ],
   "source_cleanup_status": "writable_history_clean_readonly_cache_pending",
   "hf_repo": "yiwenX/RiverValley-1B-Experimental-20261110",
-  "hf_revision": "172441396568aef1230586da5993eac069526e34",
+  "hf_revision": "f27242419220b5e5b05c15af662ce82cb28b515c",
   "public_release_ready": false,
   "publication_hold": {
     "active": true,
     "requested_on": "2026-11-16",
     "requested_by": "repository_owner",
-    "reason": "用户已授权独立源码快照开源；原开发仓库与模型权重继续私有，旧凭据、缓存及权重许可仍待核实。",
+    "reason": "用户已要求公开独立源码快照与最新实验权重下载；原开发仓库继续私有，旧凭据及平台缓存仍待核实。权重许可核查未完成。",
     "release_requires_new_owner_instruction": true,
     "scope": [
-      "legacy_development_repository",
-      "huggingface_model_weights"
+      "legacy_development_repository"
     ]
   },
   "source_repo": "Hao-yiwen/RiverValley",
-  "source_publication_status": "approved_for_clean_snapshot_publication",
+  "source_publication_status": "published_clean_snapshot",
   "source_public_release_ready": true,
   "source_history_included": false,
   "legacy_repository_publication_blockers": [
     "远端可写历史已清理；GitHub 旧 MR 只读引用及缓存清理申请已提交，尚无清除确认。",
     "账户所有者尚不能确认旧外部登录凭据已失效；按用户指示继续保持私有。"
   ],
-  "source_publication_blockers": []
+  "source_publication_blockers": [],
+  "weight_public_download_authorized": true,
+  "weight_license_review_complete": false,
+  "weight_open_license_confirmed": false,
+  "weight_publication_instruction_on": "2026-11-16",
+  "source_initial_commit": "6dcc711591bd1c4d71f0d5a5f8979936290a329a",
+  "hf_tag": "translation-curriculum-20261110",
+  "weight_public_download_available": true
 }

@@ -3,7 +3,7 @@
   "model_sha256": "1e8c6b939ae4cf17aa7fb0e94d8d6f0da0628c47a64b25da4ebec032820877e4",
   "weight_license": null,
   "public_release_ready": false,
-  "conclusion": "权重许可尚未核实完成；已发出针对明确缺口的询问，等待上游答复。",
+  "conclusion": "用户已明确要求公开实验权重下载；现有许可与署名缺口仍未解决，等待上游答复，不宣称已取得开放许可证。",
   "sources": [
     {
       "repo": "opencsg/chinese-fineweb-edu",
@@ -120,5 +120,7 @@
     }
   ],
   "outreach_authorized_by_owner": true,
-  "tatoeba_attribution": "release/tatoeba_attribution.json"
+  "tatoeba_attribution": "release/tatoeba_attribution.json",
+  "public_download_requested_by_owner": true,
+  "license_review_complete": false
 }
